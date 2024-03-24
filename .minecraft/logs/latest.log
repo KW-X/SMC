@@ -1,0 +1,837 @@
+[24Mar2024 13:45:54.815] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--username, smallru8, --version, 1.20.1, --gameDir, D:/programs/MultiMC/instances/1.20.1-KWSMC/.minecraft, --assetsDir, D:/programs/MultiMC/assets, --assetIndex, 5, --uuid, f2bf90b09ff149b587319e7c7a1f56d9, --accessToken, ????????, --userType, msa, --versionType, release, --launchTarget, forgeclient, --fml.forgeVersion, 47.2.17, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --width, 854, --height, 480]
+[24Mar2024 13:45:54.824] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.4 by Oracle Corporation; OS Windows Server 2022 arch amd64 version 10.0
+[24Mar2024 13:45:55.642] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[24Mar2024 13:45:55.701] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[24Mar2024 13:45:55.936] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
+[24Mar2024 13:45:55.978] [main/INFO] [mixin-transmog/]: Mixin Transmogrifier is definitely up to no good...
+[24Mar2024 13:45:55.996] [main/INFO] [mixin-transmog/]: crimes against java were committed
+[24Mar2024 13:45:56.008] [main/INFO] [mixin-transmog/]: Original mixin transformation service successfully crobbed by mixin-transmogrifier!
+[24Mar2024 13:45:56.037] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/D:/programs/MultiMC/instances/1.20.1-KWSMC/.minecraft/mods/Connector-1.0.0-beta.36+1.20.1.jar%23238%23241!/ Service=ModLauncher Env=CLIENT
+[24Mar2024 13:45:56.041] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: NVIDIA GeForce RTX 3060 Ti/PCIe/SSE2 GL version 4.6.0 NVIDIA 551.86, NVIDIA Corporation
+[24Mar2024 13:45:56.472] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file D:\programs\MultiMC\libraries\net\minecraftforge\fmlcore\1.20.1-47.2.17\fmlcore-1.20.1-47.2.17.jar is missing mods.toml file
+[24Mar2024 13:45:56.508] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file D:\programs\MultiMC\libraries\net\minecraftforge\javafmllanguage\1.20.1-47.2.17\javafmllanguage-1.20.1-47.2.17.jar is missing mods.toml file
+[24Mar2024 13:45:56.526] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file D:\programs\MultiMC\libraries\net\minecraftforge\lowcodelanguage\1.20.1-47.2.17\lowcodelanguage-1.20.1-47.2.17.jar is missing mods.toml file
+[24Mar2024 13:45:56.544] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file D:\programs\MultiMC\libraries\net\minecraftforge\mclanguage\1.20.1-47.2.17\mclanguage-1.20.1-47.2.17.jar is missing mods.toml file
+[24Mar2024 13:45:56.877] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[24Mar2024 13:45:56.878] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 75 dependencies adding them to mods collection
+[24Mar2024 13:45:57.541] [main/INFO] [dev.su5ed.sinytra.connector.locator.DependencyResolver/]: Dependency resolution found 1 candidates to load
+[24Mar2024 13:45:58.580] [main/INFO] [dev.su5ed.sinytra.connector.service.hacks.ModuleLayerMigrator/]: Successfully made module authlib transformable
+[24Mar2024 13:45:59.600] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[24Mar2024 13:46:00.022] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclient' with arguments [--version, 1.20.1, --gameDir, D:\programs\MultiMC\instances\1.20.1-KWSMC\.minecraft, --assetsDir, D:\programs\MultiMC\assets, --uuid, f2bf90b09ff149b587319e7c7a1f56d9, --username, smallru8, --assetIndex, 5, --accessToken, ????????, --userType, msa, --versionType, release, --width, 854, --height, 480]
+[24Mar2024 13:46:00.202] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 220 options available, 3 override(s) found
+[24Mar2024 13:46:00.204] [main/INFO] [Embeddium-GraphicsAdapterProbe/]: Searching for graphics cards...
+[24Mar2024 13:46:00.410] [main/INFO] [Embeddium-GraphicsAdapterProbe/]: Found graphics card: GraphicsAdapterInfo[vendor=NVIDIA, name=NVIDIA GeForce RTX 3060 Ti, version=DriverVersion=31.0.15.5186]
+[24Mar2024 13:46:00.414] [main/WARN] [Embeddium-Workarounds/]: Sodium has applied one or more workarounds to prevent crashes or other issues on your system: [NVIDIA_THREADED_OPTIMIZATIONS]
+[24Mar2024 13:46:00.414] [main/WARN] [Embeddium-Workarounds/]: This is not necessarily an issue, but it may result in certain features or optimizations being disabled. You can sometimes fix these issues by upgrading your graphics driver.
+[24Mar2024 13:46:00.438] [main/WARN] [mixin/]: Reference map 'handcrafted-forge-1.20.1-forge-refmap.json' for handcrafted.mixins.json could not be read. If this is a development environment you can ignore this message
+[24Mar2024 13:46:00.504] [main/WARN] [mixin/]: Reference map 'kubejsdelight.refmap.json' for kubejsdelight.mixins.json could not be read. If this is a development environment you can ignore this message
+[24Mar2024 13:46:00.554] [main/WARN] [mixin/]: Reference map 'cuisinedelight.refmap.json' for cuisinedelight.mixins.json could not be read. If this is a development environment you can ignore this message
+[24Mar2024 13:46:00.607] [main/INFO] [Radium Config/]: Loaded configuration file for Radium: 126 options available, 0 override(s) found
+[24Mar2024 13:46:00.740] [main/INFO] [Puzzles Lib/]: Loading 177 mods:
+	- advancednetherite 2.0.2
+	- alexsmobs 1.22.7
+	- amecsapi 1.5.3+mc1.20-pre1
+	- another_furniture 1.20.1-3.0.1
+	- appleskin 2.5.1+mc1.20.1
+	- architectury 9.1.12
+	- athena 3.1.1
+	- backpacked 2.2.5
+	- balm 7.2.1
+	- betterdungeons 1.20-Forge-4.0.3
+	- betterendisland 1.20-Forge-2.0.5
+	- betterfortresses 1.20-Forge-2.0.5
+	- betterjungletemples 1.20-Forge-2.0.4
+	- bettermineshafts 1.20-Forge-4.0.4
+	- betteroceanmonuments 1.20-Forge-3.0.4
+	- betterstrongholds 1.20-Forge-4.0.3
+	- betterwitchhuts 1.20-Forge-3.0.3
+	- biomemusic 1.20.1-2.3
+	- biomesoplenty 18.0.0.598
+	- botarium 2.3.3
+	- caelus 3.1.0+1.20
+	- carryon 2.1.2.7
+	- cataclysm 1.0
+	- chefsdelight 1.0.3-forge-1.20.1
+	- chipped 3.0.4
+	- chunkloaders 1.2.8a
+	- citadel 2.5.3
+	- clumps 12.0.0.3
+	- comforts 6.3.5+1.20.1
+	- connectorextras 1.9.2+1.20.1
+	- connectorextras_architectury_bridge 1.9.2+1.20.1
+	- connectorextras_continuity_compat 1.9.2+1.20.1
+	- connectorextras_emi_bridge 1.9.2+1.20.1
+	- connectorextras_energy_bridge 1.9.2+1.20.1
+	- connectorextras_geckolib_fabric_compat 1.9.2+1.20.1
+	- connectorextras_jei_bridge 1.9.2+1.20.1
+	- connectorextras_kubejs_bridge 1.9.2+1.20.1
+	- connectorextras_modmenu_bridge 1.9.2+1.20.1
+	- connectorextras_rei_bridge 1.9.2+1.20.1
+	- connectorextras_terrablender_bridge 1.9.2+1.20.1
+	- connectormod 1.0.0-beta.36+1.20.1
+	- corn_delight 1.0.3-1.20.1
+	- corpse 1.20.1-1.0.9
+	- crabbersdelight 1.1.4
+	- create 0.5.1.f
+	- create_central_kitchen 1.3.9.e
+	- create_dragon_lib 1.3.3
+	- create_new_age 1.1.2
+	- createoreexcavation 1.4.2
+	- cuisinedelight 1.1.12
+	- cupboard 1.20.1-2.3
+	- curios 5.7.0+1.20.1
+	- decorative_blocks 4.0.2
+	- delightful 3.4.2
+	- diagonalblocks 8.0.2
+	- diagonalfences 8.1.3
+	- dungeons_arise 2.1.58-1.20.x
+	- easier_sleeping 2.1.3
+	- embeddium 0.3.9+mc1.20.1
+	- endersdelight 1.0.3
+	- everycomp 1.20-2.6.29
+	- fabric_api 0.91.0+1.10.8+1.20.1
+	- fabric_api_base 0.4.30+ef105b4977
+	- fabric_api_lookup_api_v1 1.6.35+67f9824077
+	- fabric_biome_api_v1 13.0.12+dd0389a577
+	- fabric_block_api_v1 1.0.10+0e6cb7f777
+	- fabric_block_view_api_v2 1.0.0+0767707077
+	- fabric_blockrenderlayer_v1 1.1.40+1d0da21e77
+	- fabric_client_tags_api_v1 1.1.1+5d6761b877
+	- fabric_command_api_v1 1.2.33+f71b366f77
+	- fabric_command_api_v2 2.2.12+561530ec77
+	- fabric_content_registries_v0 4.0.10+a670df1e77
+	- fabric_convention_tags_v1 1.5.4+fa3d1c0177
+	- fabric_data_generation_api_v1 12.3.3+369cb3a477
+	- fabric_dimensions_v1 2.1.53+8005d10d77
+	- fabric_entity_events_v1 1.5.22+b909fbe377
+	- fabric_events_interaction_v0 0.6.1+0d0bd5a777
+	- fabric_game_rule_api_v1 1.0.39+461110ab77
+	- fabric_item_api_v1 2.1.27+2272fc7f77
+	- fabric_item_group_api_v1 4.0.11+f687ac9377
+	- fabric_key_binding_api_v1 1.0.36+561530ec77
+	- fabric_lifecycle_events_v1 2.2.21+afab492177
+	- fabric_loot_api_v2 1.2.0+eb28f93e77
+	- fabric_message_api_v1 5.1.8+52cc178c77
+	- fabric_mining_level_api_v1 2.1.49+561530ec77
+	- fabric_model_loading_api_v1 1.0.2+3a78c72c77
+	- fabric_models_v0 0.4.1+7c3892a477
+	- fabric_networking_api_v1 1.3.10+503a202477
+	- fabric_object_builder_api_v1 11.1.2+2174fc8477
+	- fabric_particles_v1 1.1.1+78e1ecb877
+	- fabric_recipe_api_v1 1.0.20+514a076577
+	- fabric_registry_sync_v0 2.3.2+1c0ea72177
+	- fabric_renderer_api_v1 3.2.0+1d29b44577
+	- fabric_renderer_indigo 1.5.0+67f9824077
+	- fabric_rendering_data_attachment_v1 0.3.36+a6081afc77
+	- fabric_rendering_fluids_v1 3.0.27+4ac5e37a77
+	- fabric_rendering_v1 3.0.7+1c0ea72177
+	- fabric_resource_conditions_api_v1 2.3.7+9ad825cd77
+	- fabric_resource_loader_v0 0.11.9+142e25ab77
+	- fabric_screen_api_v1 2.0.7+45a670a577
+	- fabric_screen_handler_api_v1 1.3.29+561530ec77
+	- fabric_sound_api_v1 1.0.12+4f23bd8477
+	- fabric_transfer_api_v1 3.3.3+b00938ec77
+	- fabric_transitive_access_wideners_v1 4.3.0+1880499877
+	- fallingleaves 2.1.0
+	- fallingtree 4.3.4
+	- farmersdelight 1.20.1-1.2.4
+	- festive_delight 1.0.0
+	- flib 0.0.11
+	- flywheel 0.6.10-7
+	- forge 47.2.17
+	- forgeconfigapiport 8.0.0
+	- framework 0.6.16
+	- fruitsdelight 1.0.5
+	- ftbbackups2 1.0.23
+	- geckoanimfix 1.0.0
+	- geckolib 4.4.2
+	- geophilic 2.1.0-mc1.20u1.20.2
+	- geophilic_reforged 1.2.0
+	- handcrafted 3.0.5
+	- ironchest 1.20.1-14.4.4
+	- jei 15.2.0.27
+	- jeresources 1.4.0.247
+	- jmi 1.20.1-0.14-47
+	- journeymap 5.9.18p1
+	- justenoughbreeding 1.0.12
+	- justenoughprofessions 3.0.1
+	- kubejs 2001.6.4-build.133
+	- kubejs_create 2001.2.5-build.2
+	- kubejsdelight 1.1.1
+	- l2library 2.4.14
+	- minecraft 1.20.1
+	- mixinextras 0.3.2
+	- mixinsquared 0.1.1
+	- modmenu 7.2.2
+	- moonlight 1.20-2.9.10
+	- mysterious_mountain_lib 1.4.2-1.20.1
+	- naturescompass 1.20.1-1.11.2-forge
+	- nethersdelight 1.20.1-4.0
+	- nochatreports 1.20.1-v2.2.2
+	- oceansdelight 1.0.2-1.20
+	- oculus 1.6.15a
+	- packetfixer 1.2.4
+	- packmenu 6.0.0
+	- placebo 8.0.0
+	- polylib 2000.0.3-build.97
+	- polymorph 0.49.2+1.20.1
+	- puzzlesaccessapi 8.0.7
+	- puzzleslib 8.1.18
+	- quark 4.0-436
+	- quarkdelight 1.0.0
+	- radium 0.12.2+git.5f80f74
+	- reach_entity_attributes 2.4.0
+	- resourcefullib 2.1.23
+	- rhino 2001.2.2-build.18
+	- rubidium 0.7.1
+	- sawmill 1.20-1.3.0
+	- scarecrowsterritory 1.1.11d
+	- smarterfarmers 1.20-1.8.1
+	- spark 1.10.53
+	- spawners_plus 2.0.1-1.20.1
+	- spectrelib 0.13.15+1.20.1
+	- storagedrawers 12.0.2
+	- storagenetwork 1.10.0
+	- supermartijn642configlib 1.1.8
+	- supermartijn642corelib 1.1.17
+	- supplementaries 1.20-2.7.35
+	- terrablender 3.0.1.4
+	- theoneprobe 1.20.1-10.0.0
+	- toofast 0.4.3.5
+	- trashcans 1.0.18
+	- twigs 1.20.1-3.1.1
+	- veinmining 1.3.0+1.20.1
+	- villagersplus 3.1
+	- waystones 14.1.3
+	- yungsapi 1.20-Forge-4.0.3
+	- zeta 1.0-13
+[24Mar2024 13:46:00.751] [main/WARN] [mixin/]: Reference map 'PacketFixer-forge-forge-refmap.json' for packetfixer-forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[24Mar2024 13:46:00.976] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[24Mar2024 13:46:00.989] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[24Mar2024 13:46:01.189] [main/WARN] [mixin/]: Error loading class: mezz/modnametooltip/TooltipEventHandler (java.lang.ClassNotFoundException: mezz.modnametooltip.TooltipEventHandler)
+[24Mar2024 13:46:01.193] [main/WARN] [mixin/]: Error loading class: me/shedaniel/rei/impl/client/ClientHelperImpl (java.lang.ClassNotFoundException: me.shedaniel.rei.impl.client.ClientHelperImpl)
+[24Mar2024 13:46:01.742] [main/WARN] [mixin/]: Error loading class: net/raphimc/immediatelyfast/feature/map_atlas_generation/MapAtlasTexture (java.lang.ClassNotFoundException: net.raphimc.immediatelyfast.feature.map_atlas_generation.MapAtlasTexture)
+[24Mar2024 13:46:02.433] [main/WARN] [mixin/]: Error loading class: dev/ftb/mods/ftbchunks/client/map/UpdateChunkFromServerTask (java.lang.ClassNotFoundException: dev.ftb.mods.ftbchunks.client.map.UpdateChunkFromServerTask)
+[24Mar2024 13:46:02.433] [main/WARN] [mixin/]: @Mixin target dev.ftb.mods.ftbchunks.client.map.UpdateChunkFromServerTask was not found jmi.mixins.json:UpdateFromServerTaskMixin from mod jmi
+[24Mar2024 13:46:02.545] [main/WARN] [mixin/]: Error loading class: mcjty/incontrol/spawner/SpawnerSystem (java.lang.ClassNotFoundException: mcjty.incontrol.spawner.SpawnerSystem)
+[24Mar2024 13:46:02.546] [main/WARN] [mixin/]: @Mixin target mcjty.incontrol.spawner.SpawnerSystem was not found scarecrowsterritory.mixins.json:in_control.SpawnerSystemMixin from mod scarecrowsterritory
+[24Mar2024 13:46:02.550] [main/WARN] [mixin/]: Error loading class: mcjty/incontrol/tools/rules/CommonRuleEvaluator (java.lang.ClassNotFoundException: mcjty.incontrol.tools.rules.CommonRuleEvaluator)
+[24Mar2024 13:46:02.550] [main/WARN] [mixin/]: @Mixin target mcjty.incontrol.tools.rules.CommonRuleEvaluator was not found scarecrowsterritory.mixins.json:in_control.CommonRuleEvaluatorMixin from mod scarecrowsterritory
+[24Mar2024 13:46:02.639] [main/WARN] [mixin/]: Error loading class: noobanidus/mods/lootr/config/ConfigManager (java.lang.ClassNotFoundException: noobanidus.mods.lootr.config.ConfigManager)
+[24Mar2024 13:46:02.725] [main/WARN] [mixin/]: Error loading class: dan200/computercraft/shared/integration/MoreRedIntegration (java.lang.ClassNotFoundException: dan200.computercraft.shared.integration.MoreRedIntegration)
+[24Mar2024 13:46:02.725] [main/WARN] [mixin/]: @Mixin target dan200.computercraft.shared.integration.MoreRedIntegration was not found create_central_kitchen.mixins.json:common.computercraft.MoreRedIntegrationMixin from mod create_central_kitchen
+[24Mar2024 13:46:02.759] [main/WARN] [mixin/]: Error loading class: com/sammy/minersdelight/content/block/copper_pot/CopperPotBlockEntity (java.lang.ClassNotFoundException: com.sammy.minersdelight.content.block.copper_pot.CopperPotBlockEntity)
+[24Mar2024 13:46:02.759] [main/WARN] [mixin/]: @Mixin target com.sammy.minersdelight.content.block.copper_pot.CopperPotBlockEntity was not found create_central_kitchen.mixins.json:common.minersdelight.CopperPotBlockEntityMixin from mod create_central_kitchen
+[24Mar2024 13:46:02.763] [main/WARN] [mixin/]: Error loading class: com/sammy/minersdelight/content/block/sticky_basket/StickyBasketBlockEntity (java.lang.ClassNotFoundException: com.sammy.minersdelight.content.block.sticky_basket.StickyBasketBlockEntity)
+[24Mar2024 13:46:02.763] [main/WARN] [mixin/]: @Mixin target com.sammy.minersdelight.content.block.sticky_basket.StickyBasketBlockEntity was not found create_central_kitchen.mixins.json:common.minersdelight.StickyBasketBlockEntityAccessor from mod create_central_kitchen
+[24Mar2024 13:46:02.766] [main/WARN] [mixin/]: Error loading class: com/sammy/minersdelight/content/block/sticky_basket/StickyBasketBlockEntity (java.lang.ClassNotFoundException: com.sammy.minersdelight.content.block.sticky_basket.StickyBasketBlockEntity)
+[24Mar2024 13:46:02.766] [main/WARN] [mixin/]: @Mixin target com.sammy.minersdelight.content.block.sticky_basket.StickyBasketBlockEntity was not found create_central_kitchen.mixins.json:common.minersdelight.StickyBasketBlockEntityMixin from mod create_central_kitchen
+[24Mar2024 13:46:02.768] [main/WARN] [mixin/]: Error loading class: net/orcinus/overweightfarming/blocks/CropFullBlock (java.lang.ClassNotFoundException: net.orcinus.overweightfarming.blocks.CropFullBlock)
+[24Mar2024 13:46:02.769] [main/WARN] [mixin/]: @Mixin target net.orcinus.overweightfarming.blocks.CropFullBlock was not found create_central_kitchen.mixins.json:common.overweightfarming.CropFullBlockMixin from mod create_central_kitchen
+[24Mar2024 13:46:02.862] [main/WARN] [Embeddium/]: Force-disabling mixin 'features.render.world.sky.WorldRendererMixin' as rule 'mixin.features.render.world.sky' (added by mods [oculus]) disables it and children
+[24Mar2024 13:46:02.862] [main/WARN] [Embeddium/]: Force-disabling mixin 'features.render.world.sky.ClientWorldMixin' as rule 'mixin.features.render.world.sky' (added by mods [oculus]) disables it and children
+[24Mar2024 13:46:02.862] [main/WARN] [Embeddium/]: Force-disabling mixin 'features.render.world.sky.BackgroundRendererMixin' as rule 'mixin.features.render.world.sky' (added by mods [oculus]) disables it and children
+[24Mar2024 13:46:02.864] [main/WARN] [Embeddium/]: Force-disabling mixin 'features.render.gui.font.GlyphRendererMixin' as rule 'mixin.features.render.gui.font' (added by mods [oculus]) disables it and children
+[24Mar2024 13:46:02.864] [main/WARN] [Embeddium/]: Force-disabling mixin 'features.render.entity.shadows.EntityRenderDispatcherMixin' as rule 'mixin.features.render.entity' (added by mods [oculus]) disables it and children
+[24Mar2024 13:46:02.864] [main/WARN] [Embeddium/]: Force-disabling mixin 'features.render.entity.fast_render.ModelPartMixin' as rule 'mixin.features.render.entity' (added by mods [oculus]) disables it and children
+[24Mar2024 13:46:02.864] [main/WARN] [Embeddium/]: Force-disabling mixin 'features.render.entity.fast_render.CuboidMixin' as rule 'mixin.features.render.entity' (added by mods [oculus]) disables it and children
+[24Mar2024 13:46:02.865] [main/WARN] [Embeddium/]: Force-disabling mixin 'features.render.entity.cull.EntityRendererMixin' as rule 'mixin.features.render.entity' (added by mods [oculus]) disables it and children
+[24Mar2024 13:46:03.062] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.2).
+[24Mar2024 13:46:03.232] [main/INFO] [mixin/]: Mixing client.MixinMinecraft from mixins/common/nochatreports.mixins.json into net.minecraft.client.Minecraft
+[24Mar2024 13:46:03.835] [main/INFO] [mixin/]: amecsapi.mixins.json:KeyMappingLookupAccessor from mod amecsapi->@Accessor[FIELD_GETTER]::getMap()Ljava/util/EnumMap; should be static as its target is
+[24Mar2024 13:46:04.048] [pool-4-thread-1/INFO] [mixin/]: Mixing common.MixinFriendlyByteBuf from mixins/common/nochatreports.mixins.json into net.minecraft.network.FriendlyByteBuf
+[24Mar2024 13:46:04.048] [pool-4-thread-1/INFO] [mixin/]: Renaming synthetic method lambda$onWriteJsonWithCodec$1(Ljava/lang/Object;Ljava/lang/String;)Lio/netty/handler/codec/EncoderException; to mdc8f821$nochatreports$lambda$onWriteJsonWithCodec$1$0 in mixins/common/nochatreports.mixins.json:common.MixinFriendlyByteBuf from mod nochatreports
+[24Mar2024 13:46:04.048] [pool-4-thread-1/INFO] [mixin/]: Renaming synthetic method lambda$onReadJsonWithCodec$0(Ljava/lang/String;)Lio/netty/handler/codec/DecoderException; to mdc8f821$nochatreports$lambda$onReadJsonWithCodec$0$1 in mixins/common/nochatreports.mixins.json:common.MixinFriendlyByteBuf from mod nochatreports
+[24Mar2024 13:46:04.151] [pool-4-thread-1/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[24Mar2024 13:46:04.152] [pool-4-thread-1/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[24Mar2024 13:46:04.795] [pool-4-thread-1/INFO] [com.cupboard.Cupboard/]: Loaded config for: biomemusic.json
+[24Mar2024 13:46:05.151] [pool-4-thread-1/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[24Mar2024 13:46:05.151] [pool-4-thread-1/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[24Mar2024 13:46:07.065] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 188 Datafixer optimizations took 86 milliseconds
+[24Mar2024 13:46:07.579] [pool-4-thread-1/INFO] [mixin/]: Mixing server.MixinServerGamePacketListenerImpl from mixins/common/nochatreports.mixins.json into net.minecraft.server.network.ServerGamePacketListenerImpl
+[24Mar2024 13:46:08.537] [Render thread/INFO] [mixin/]: Mixing client.MixinChatScreen from mixins/common/nochatreports.mixins.json into net.minecraft.client.gui.screens.ChatScreen
+[24Mar2024 13:46:08.537] [Render thread/INFO] [mixin/]: Renaming synthetic method lambda$onInit$4()Lnet/minecraft/network/chat/Component; to mdc8f821$nochatreports$lambda$onInit$4$0 in mixins/common/nochatreports.mixins.json:client.MixinChatScreen from mod nochatreports
+[24Mar2024 13:46:08.537] [Render thread/INFO] [mixin/]: Renaming synthetic method lambda$onInit$3(Lnet/minecraft/client/gui/components/Button;)V to mdc8f821$nochatreports$lambda$onInit$3$1 in mixins/common/nochatreports.mixins.json:client.MixinChatScreen from mod nochatreports
+[24Mar2024 13:46:08.537] [Render thread/INFO] [mixin/]: Renaming synthetic method lambda$onInit$2()Lnet/minecraft/network/chat/Component; to mdc8f821$nochatreports$lambda$onInit$2$2 in mixins/common/nochatreports.mixins.json:client.MixinChatScreen from mod nochatreports
+[24Mar2024 13:46:08.537] [Render thread/INFO] [mixin/]: Renaming synthetic method lambda$onInit$1(Lnet/minecraft/client/gui/components/Button;)V to mdc8f821$nochatreports$lambda$onInit$1$3 in mixins/common/nochatreports.mixins.json:client.MixinChatScreen from mod nochatreports
+[24Mar2024 13:46:08.537] [Render thread/INFO] [mixin/]: Renaming synthetic method lambda$onBeforeMessage$0(Ljava/lang/String;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;Lcom/aizistral/nochatreports/common/encryption/Encryptor;)V to mdc8f821$nochatreports$lambda$onBeforeMessage$0$4 in mixins/common/nochatreports.mixins.json:client.MixinChatScreen from mod nochatreports
+[24Mar2024 13:46:08.564] [Render thread/INFO] [mixin/]: Mixing client.MixinTitleScreen from mixins/common/nochatreports.mixins.json into net.minecraft.client.gui.screens.TitleScreen
+[24Mar2024 13:46:08.655] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/programs/MultiMC/libraries/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar%23352!/assets/.mcassetsroot' uses unexpected schema
+[24Mar2024 13:46:08.656] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/programs/MultiMC/libraries/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar%23352!/data/.mcassetsroot' uses unexpected schema
+[24Mar2024 13:46:08.674] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[24Mar2024 13:46:08.678] [Render thread/INFO] [mixin/]: Mixing client.MixinYggdrasilUserApiService from mixins/common/nochatreports.mixins.json into com.mojang.authlib.yggdrasil.YggdrasilUserApiService
+[24Mar2024 13:46:09.285] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: smallru8
+[24Mar2024 13:46:09.286] [Render thread/INFO] [mixin/]: Mixing client.MixinToastComponent from mixins/common/nochatreports.mixins.json into net.minecraft.client.gui.components.toasts.ToastComponent
+[24Mar2024 13:46:09.450] [Render thread/INFO] [mixin/]: Mixing client.MixinOptions from mixins/common/nochatreports.mixins.json into net.minecraft.client.Options
+[24Mar2024 13:46:09.450] [Render thread/INFO] [mixin/]: Renaming synthetic method lambda$onlyShowSecureChat$0(Ljava/lang/Boolean;)V to mdc8f821$nochatreports$lambda$onlyShowSecureChat$0$0 in mixins/common/nochatreports.mixins.json:client.MixinOptions from mod nochatreports
+[24Mar2024 13:46:09.479] [Render thread/INFO] [mixin/]: Mixing client.MixinChatComponent from mixins/common/nochatreports.mixins.json into net.minecraft.client.gui.components.ChatComponent
+[24Mar2024 13:46:09.480] [Render thread/INFO] [mixin/]: Renaming synthetic method lambda$modifyGUIMessage$1()V to mdc8f821$nochatreports$lambda$modifyGUIMessage$1$0 in mixins/common/nochatreports.mixins.json:client.MixinChatComponent from mod nochatreports
+[24Mar2024 13:46:09.480] [Render thread/INFO] [mixin/]: Renaming synthetic method lambda$modifyGUIMessage$0(Lnet/minecraft/network/chat/FormattedText;Lnet/minecraft/network/chat/Component;)V to mdc8f821$nochatreports$lambda$modifyGUIMessage$0$1 in mixins/common/nochatreports.mixins.json:client.MixinChatComponent from mod nochatreports
+[24Mar2024 13:46:09.484] [Render thread/INFO] [mixin/]: Mixing client.MixinGuiMessageTagIcon from mixins/common/nochatreports.mixins.json into net.minecraft.client.GuiMessageTag$Icon
+[24Mar2024 13:46:09.484] [Render thread/INFO] [mixin/]: Renaming @Invoker method create(Ljava/lang/String;IIIII)Lnet/minecraft/client/GuiMessageTag$Icon; to create$nochatreports_$md$c8f821$0 in mixins/common/nochatreports.mixins.json:client.MixinGuiMessageTagIcon from mod nochatreports
+[24Mar2024 13:46:09.539] [Render thread/INFO] [net.minecraft.client.Options/]: Added resource packs: [vanilla, mod_resources, file/Stay_True_1.20.zip, file/Mandalas_Legacy_Gui_Background.zip, Moonlight Mods Dynamic Assets, file/Created Simple Storage 1.3.zip, file/waystones_1.20.zip, file/Better_Modded_GUI.zip, file/NoBushyLeaves.zip, create:legacy_copper, create_central_kitchen:create_styled, file/SE Vanilla Consistency 1.20.1.zip, fabric]
+[24Mar2024 13:46:09.545] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
+[24Mar2024 13:46:09.578] [Render thread/INFO] [KubeJS/]: Loaded client.properties
+[24Mar2024 13:46:09.581] [Render thread/WARN] [Embeddium-NvidiaWorkarounds/]: Applying workaround: Prevent the NVIDIA OpenGL driver from using broken optimizations (NVIDIA_THREADED_OPTIMIZATIONS)
+[24Mar2024 13:46:09.610] [Render thread/INFO] [Embeddium-PostlaunchChecks/]: OpenGL Vendor: NVIDIA Corporation
+[24Mar2024 13:46:09.610] [Render thread/INFO] [Embeddium-PostlaunchChecks/]: OpenGL Renderer: NVIDIA GeForce RTX 3060 Ti/PCIe/SSE2
+[24Mar2024 13:46:09.610] [Render thread/INFO] [Embeddium-PostlaunchChecks/]: OpenGL Version: 4.6.0 NVIDIA 551.86
+[24Mar2024 13:46:09.809] [Render thread/INFO] [Oculus/]: Debug functionality is disabled.
+[24Mar2024 13:46:09.813] [Render thread/INFO] [Oculus/]: OpenGL 4.5 detected, enabling DSA.
+[24Mar2024 13:46:11.054] [Render thread/WARN] [Oculus/]: Tried to get boolean value for unknown option: 1, defaulting to true!
+[24Mar2024 13:46:11.055] [Render thread/WARN] [Oculus/]: Tried to get boolean value for unknown option: 1, defaulting to true!
+[24Mar2024 13:46:11.055] [Render thread/WARN] [Oculus/]: Tried to get boolean value for unknown option: 1, defaulting to true!
+[24Mar2024 13:46:11.055] [Render thread/WARN] [Oculus/]: Tried to get boolean value for unknown option: 1, defaulting to true!
+[24Mar2024 13:46:11.055] [Render thread/WARN] [Oculus/]: Tried to get boolean value for unknown option: 1, defaulting to true!
+[24Mar2024 13:46:11.055] [Render thread/WARN] [Oculus/]: Tried to get boolean value for unknown option: 1, defaulting to true!
+[24Mar2024 13:46:11.055] [Render thread/WARN] [Oculus/]: Tried to get boolean value for unknown option: 1, defaulting to true!
+[24Mar2024 13:46:11.055] [Render thread/WARN] [Oculus/]: Tried to get boolean value for unknown option: 1, defaulting to true!
+[24Mar2024 13:46:11.055] [Render thread/WARN] [Oculus/]: Tried to get boolean value for unknown option: 1, defaulting to true!
+[24Mar2024 13:46:11.063] [Render thread/INFO] [Oculus/]: Profile: HIGH (+0 options changed by user)
+[24Mar2024 13:46:11.660] [Render thread/INFO] [Oculus/]: Using shaderpack: ComplementaryReimagined_r5.1.1 + EuphoriaPatches_1.2
+[24Mar2024 13:46:11.778] [modloading-worker-0/INFO] [plus.dragons.createdragonlib.DragonLib/]: Create: Dragon Lib 1.3.3 has initialized, ready to support your Create add-ons!
+[24Mar2024 13:46:11.869] [modloading-worker-0/INFO] [create_new_age/]: Hello 1.20.1 Create!
+[24Mar2024 13:46:11.893] [modloading-worker-0/INFO] [mixin/]: Mixing client.MixinClientConnection from mixins/forge/nochatreports-forge.mixins.json into net.minecraft.network.Connection
+[24Mar2024 13:46:11.908] [modloading-worker-0/INFO] [dev.su5ed.sinytra.connectorextras.terrablenderbridge.TerraBlenderBridge/]: Injecting TerraBlender API classes
+[24Mar2024 13:46:11.918] [modloading-worker-0/INFO] [villagersplus/]: Registered JSON trade offer adapter.
+[24Mar2024 13:46:11.937] [modloading-worker-0/INFO] [mixin/]: Mixing server.MixinPlayerList from mixins/common/nochatreports.mixins.json into net.minecraft.server.players.PlayerList
+[24Mar2024 13:46:12.024] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for diagonalblocks:main
+[24Mar2024 13:46:12.088] [modloading-worker-0/INFO] [com.autovw.advancednetherite.AdvancedNetherite/]: Hello world!
+[24Mar2024 13:46:12.092] [modloading-worker-0/INFO] [mixin/]: Mixing client.MixinJoinMultiplayerScreen from mixins/common/nochatreports.mixins.json into net.minecraft.client.gui.screens.multiplayer.JoinMultiplayerScreen
+[24Mar2024 13:46:12.092] [modloading-worker-0/INFO] [mixin/]: Renaming synthetic method lambda$onInit$2()Lnet/minecraft/network/chat/Component; to mdc8f821$nochatreports$lambda$onInit$2$0 in mixins/common/nochatreports.mixins.json:client.MixinJoinMultiplayerScreen from mod nochatreports
+[24Mar2024 13:46:12.092] [modloading-worker-0/INFO] [mixin/]: Renaming synthetic method lambda$onInit$1(Lnet/minecraft/client/gui/components/Button;)V to mdc8f821$nochatreports$lambda$onInit$1$1 in mixins/common/nochatreports.mixins.json:client.MixinJoinMultiplayerScreen from mod nochatreports
+[24Mar2024 13:46:12.092] [modloading-worker-0/INFO] [mixin/]: Renaming synthetic method lambda$onInit$0(Lnet/minecraft/client/gui/components/Button;)V to mdc8f821$nochatreports$lambda$onInit$0$2 in mixins/common/nochatreports.mixins.json:client.MixinJoinMultiplayerScreen from mod nochatreports
+[24Mar2024 13:46:12.107] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing client components for diagonalblocks:main
+[24Mar2024 13:46:12.119] [modloading-worker-0/INFO] [com.cupboard.Cupboard/]: Loaded config for: cupboard.json
+[24Mar2024 13:46:12.161] [modloading-worker-0/INFO] [mixin/]: Mixing client.MixinClientPacketListener from mixins/common/nochatreports.mixins.json into net.minecraft.client.multiplayer.ClientPacketListener
+[24Mar2024 13:46:12.162] [modloading-worker-0/INFO] [mixin/]: Mixing client.MixinClientPacketListener from mixins/forge/nochatreports-forge.mixins.json into net.minecraft.client.multiplayer.ClientPacketListener
+[24Mar2024 13:46:12.214] [modloading-worker-0/INFO] [mixin/]: Mixing client.MixinClientHandshakePacketListenerImpl from mixins/forge/nochatreports-forge.mixins.json into net.minecraft.client.multiplayer.ClientHandshakePacketListenerImpl
+[24Mar2024 13:46:12.350] [modloading-worker-0/INFO] [net.fabricmc.fabric.impl.client.indigo.Indigo/]: [Indigo] Registering Indigo renderer!
+[24Mar2024 13:46:12.372] [modloading-worker-0/INFO] [KubeJS/]: Loaded common.properties
+[24Mar2024 13:46:12.377] [modloading-worker-0/INFO] [KubeJS/]: Loaded dev.properties
+[24Mar2024 13:46:12.385] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.2.17, for MC 1.20.1 with MCP 20230612.114412
+[24Mar2024 13:46:12.385] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.2.17 Initialized
+[24Mar2024 13:46:12.400] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id architectury:sync_ids
+[24Mar2024 13:46:12.403] [modloading-worker-0/INFO] [KubeJS/]: Looking for KubeJS plugins...
+[24Mar2024 13:46:12.404] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[24Mar2024 13:46:12.409] [modloading-worker-0/INFO] [KubeJS/]: Found plugin source kubejs
+[24Mar2024 13:46:12.423] [modloading-worker-0/WARN] [KubeJS/]: Plugin dev.latvian.mods.kubejs.integration.forge.gamestages.GameStagesIntegration does not have required mod gamestages loaded, skipping
+[24Mar2024 13:46:12.424] [modloading-worker-0/INFO] [KubeJS/]: Found plugin source sawmill
+[24Mar2024 13:46:12.442] [modloading-worker-0/INFO] [NoChatReports/]: KONNICHIWA ZA WARUDO!
+[24Mar2024 13:46:12.442] [modloading-worker-0/INFO] [NoChatReports/]: Default JVM text encoding is: x-windows-950
+[24Mar2024 13:46:12.455] [modloading-worker-0/INFO] [NoChatReports/]: Reading config file NoChatReports/NCR-Common.json...
+[24Mar2024 13:46:12.468] [modloading-worker-0/INFO] [NoChatReports/]: Reading config file NoChatReports/NCR-Client.json...
+[24Mar2024 13:46:12.477] [modloading-worker-0/INFO] [KubeJS/]: Found plugin source kubejsdelight
+[24Mar2024 13:46:12.480] [modloading-worker-0/INFO] [KubeJS/]: Found plugin source createoreexcavation
+[24Mar2024 13:46:12.481] [modloading-worker-0/INFO] [KubeJS/]: Found plugin source kubejs_create
+[24Mar2024 13:46:12.482] [modloading-worker-0/INFO] [NoChatReports/]: Reading config file NoChatReports/NCR-ServerPreferences.json...
+[24Mar2024 13:46:12.495] [modloading-worker-0/INFO] [NoChatReports/]: Reading config file NoChatReports/NCR-Encryption.json...
+[24Mar2024 13:46:12.500] [modloading-worker-0/INFO] [com.jozufozu.flywheel.backend.Backend/]: Oculus detected.
+[24Mar2024 13:46:12.672] [modloading-worker-0/INFO] [NoChatReports/]: Writing config file NoChatReports/NCR-Common.json...
+[24Mar2024 13:46:12.673] [modloading-worker-0/INFO] [NoChatReports/]: Writing config file NoChatReports/NCR-Client.json...
+[24Mar2024 13:46:12.675] [modloading-worker-0/INFO] [NoChatReports/]: Writing config file NoChatReports/NCR-ServerPreferences.json...
+[24Mar2024 13:46:12.677] [modloading-worker-0/INFO] [NoChatReports/]: Writing config file NoChatReports/NCR-Encryption.json...
+[24Mar2024 13:46:12.682] [modloading-worker-0/INFO] [NoChatReports/]: Client initialization...
+[24Mar2024 13:46:12.713] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for diagonalfences:main
+[24Mar2024 13:46:12.719] [modloading-worker-0/INFO] [net.creeperhost.ftbbackups.repack.org.quartz.impl.StdSchedulerFactory/]: Using default implementation for ThreadExecutor
+[24Mar2024 13:46:12.748] [modloading-worker-0/INFO] [quark/]: Initializing TerraBlender underground biome compat
+[24Mar2024 13:46:12.776] [modloading-worker-0/INFO] [KubeJS/]: Done in 368.1 ms
+[24Mar2024 13:46:12.782] [modloading-worker-0/INFO] [net.creeperhost.ftbbackups.repack.org.quartz.core.SchedulerSignalerImpl/]: Initialized Scheduler Signaller of type: class net.creeperhost.ftbbackups.repack.org.quartz.core.SchedulerSignalerImpl
+[24Mar2024 13:46:12.784] [modloading-worker-0/INFO] [net.creeperhost.ftbbackups.repack.org.quartz.core.QuartzScheduler/]: Quartz Scheduler v.2.0.2 created.
+[24Mar2024 13:46:12.795] [modloading-worker-0/INFO] [dev.tonimatas.packetfixer.PacketFixer/]: Packet Fixer has been initialized successfully
+[24Mar2024 13:46:12.797] [modloading-worker-0/INFO] [net.creeperhost.ftbbackups.repack.org.quartz.simpl.RAMJobStore/]: RAMJobStore initialized.
+[24Mar2024 13:46:12.807] [modloading-worker-0/INFO] [net.creeperhost.ftbbackups.repack.org.quartz.core.QuartzScheduler/]: Scheduler meta-data: Quartz Scheduler (v2.0.2) 'ftbbackups2' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'net.creeperhost.ftbbackups.repack.org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'net.creeperhost.ftbbackups.repack.org.quartz.simpl.SimpleThreadPool' - with 1 threads.
+  Using job-store 'net.creeperhost.ftbbackups.repack.org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+[24Mar2024 13:46:12.807] [modloading-worker-0/INFO] [net.creeperhost.ftbbackups.repack.org.quartz.impl.StdSchedulerFactory/]: Quartz scheduler 'ftbbackups2' initialized from an externally provided properties instance.
+[24Mar2024 13:46:12.807] [modloading-worker-0/INFO] [net.creeperhost.ftbbackups.repack.org.quartz.impl.StdSchedulerFactory/]: Quartz scheduler version: 2.0.2
+[24Mar2024 13:46:12.832] [modloading-worker-0/INFO] [net.creeperhost.ftbbackups.repack.org.quartz.core.QuartzScheduler/]: Scheduler ftbbackups2_$_NON_CLUSTERED started.
+[24Mar2024 13:46:12.837] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager...
+[24Mar2024 13:46:12.846] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager took 7.873 ms
+[24Mar2024 13:46:12.897] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for puzzleslib:main
+[24Mar2024 13:46:12.942] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing client components for puzzleslib:main
+[24Mar2024 13:46:13.100] [modloading-worker-0/INFO] [Every Compat/]: Loaded EveryCompat Another Furniture Module
+[24Mar2024 13:46:13.101] [modloading-worker-0/INFO] [Every Compat/]: Loaded EveryCompat Chipped Module
+[24Mar2024 13:46:13.101] [modloading-worker-0/INFO] [Every Compat/]: Loaded EveryCompat Decorative Blocks Module
+[24Mar2024 13:46:13.101] [modloading-worker-0/INFO] [Every Compat/]: Loaded EveryCompat Quark Module
+[24Mar2024 13:46:13.101] [modloading-worker-0/INFO] [Every Compat/]: Loaded EveryCompat Twigs Module
+[24Mar2024 13:46:13.157] [modloading-worker-0/INFO] [Rhino Script Remapper/]: Loading Rhino Minecraft remapper...
+[24Mar2024 13:46:13.165] [modloading-worker-0/INFO] [dev.latvian.mods.rhino.mod.util.RhinoProperties/]: Rhino properties loaded.
+[24Mar2024 13:46:13.169] [modloading-worker-0/INFO] [Rhino Script Remapper/]: Loading mappings for 1.20.1
+[24Mar2024 13:46:13.240] [modloading-worker-0/INFO] [Rhino Script Remapper/]: Done in 0.083 s
+[24Mar2024 13:46:13.244] [modloading-worker-0/INFO] [quark-zeta/]: Discovered 160 modules to load.
+[24Mar2024 13:46:13.245] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Abacus...
+[24Mar2024 13:46:13.249] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Adjustable Chat...
+[24Mar2024 13:46:13.250] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Ambient Discs...
+[24Mar2024 13:46:13.251] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Ancient Tomes...
+[24Mar2024 13:46:13.257] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Ancient Wood...
+[24Mar2024 13:46:13.267] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Armed Armor Stands...
+[24Mar2024 13:46:13.267] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Auto Walk Keybind...
+[24Mar2024 13:46:13.269] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Automatic Recipe Unlock...
+[24Mar2024 13:46:13.269] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Automatic Tool Restock...
+[24Mar2024 13:46:13.272] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Azalea Wood...
+[24Mar2024 13:46:13.272] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Back Button Keybind...
+[24Mar2024 13:46:13.273] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Backpack...
+[24Mar2024 13:46:13.279] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Beacon Redirection...
+[24Mar2024 13:46:13.279] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Better Elytra Rocket...
+[24Mar2024 13:46:13.280] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Big Stone Clusters...
+[24Mar2024 13:46:13.288] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Blossom Trees...
+[24Mar2024 13:46:13.290] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Bottled Cloud...
+[24Mar2024 13:46:13.292] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Buckets Show Inhabitants...
+[24Mar2024 13:46:13.292] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Camera...
+[24Mar2024 13:46:13.293] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Campfires Boost Elytra...
+[24Mar2024 13:46:13.294] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Celebratory Lamps...
+[24Mar2024 13:46:13.294] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Chains Connect Blocks...
+[24Mar2024 13:46:13.294] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Chest Searching...
+[24Mar2024 13:46:13.296] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Chorus Vegetation...
+[24Mar2024 13:46:13.297] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Chute...
+[24Mar2024 13:46:13.298] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Climate Control Remover...
+[24Mar2024 13:46:13.298] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Color Runes...
+[24Mar2024 13:46:13.301] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Compasses Work Everywhere...
+[24Mar2024 13:46:13.302] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Compressed Blocks...
+[24Mar2024 13:46:13.302] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Coral On Cactus...
+[24Mar2024 13:46:13.303] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Corundum...
+[24Mar2024 13:46:13.315] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Crabs...
+[24Mar2024 13:46:13.317] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Crafter...
+[24Mar2024 13:46:13.318] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Crate...
+[24Mar2024 13:46:13.319] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Diamond Repair...
+[24Mar2024 13:46:13.319] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Dispensers Place Blocks...
+[24Mar2024 13:46:13.319] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Double Door Opening...
+[24Mar2024 13:46:13.320] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Dragon Scales...
+[24Mar2024 13:46:13.321] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Duskbound Blocks...
+[24Mar2024 13:46:13.321] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Dyeable Item Frames...
+[24Mar2024 13:46:13.322] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Easy Transfering...
+[24Mar2024 13:46:13.323] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Elytra Indicator...
+[24Mar2024 13:46:13.324] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Emotes...
+[24Mar2024 13:46:13.325] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Enchantment Predicates...
+[24Mar2024 13:46:13.325] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Enchantments Begone...
+[24Mar2024 13:46:13.326] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Ender Watcher...
+[24Mar2024 13:46:13.327] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Endermosh Music Disc...
+[24Mar2024 13:46:13.327] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Enhanced Ladders...
+[24Mar2024 13:46:13.327] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Expanded Item Interactions...
+[24Mar2024 13:46:13.330] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Fairy Rings...
+[24Mar2024 13:46:13.331] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Feeding Trough...
+[24Mar2024 13:46:13.334] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Forgotten...
+[24Mar2024 13:46:13.341] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Foxhound...
+[24Mar2024 13:46:13.343] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Framed Glass...
+[24Mar2024 13:46:13.343] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Game Nerfs...
+[24Mar2024 13:46:13.344] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Glass Item Frame...
+[24Mar2024 13:46:13.346] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Glass Shard...
+[24Mar2024 13:46:13.347] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Glimmering Weald...
+[24Mar2024 13:46:13.380] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Gold Bars...
+[24Mar2024 13:46:13.381] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Gold Tools Have Fortune...
+[24Mar2024 13:46:13.382] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Grab Chickens...
+[24Mar2024 13:46:13.382] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Grate...
+[24Mar2024 13:46:13.385] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Gravisand...
+[24Mar2024 13:46:13.387] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Greener Grass...
+[24Mar2024 13:46:13.389] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Hedges...
+[24Mar2024 13:46:13.391] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Hoe Harvesting...
+[24Mar2024 13:46:13.391] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Hollow Logs...
+[24Mar2024 13:46:13.392] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Horses Swim...
+[24Mar2024 13:46:13.392] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Hotbar Changer...
+[24Mar2024 13:46:13.396] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Improved Sponges...
+[24Mar2024 13:46:13.397] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Improved Tooltips...
+[24Mar2024 13:46:13.399] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Industrial Palette...
+[24Mar2024 13:46:13.401] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Inventory Sorting...
+[24Mar2024 13:46:13.402] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Iron Rod...
+[24Mar2024 13:46:13.409] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Item Sharing...
+[24Mar2024 13:46:13.410] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Japanese Palette...
+[24Mar2024 13:46:13.410] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Leaf Carpet...
+[24Mar2024 13:46:13.410] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Lock Rotation...
+[24Mar2024 13:46:13.412] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Long Range Pick Block...
+[24Mar2024 13:46:13.412] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Magnets...
+[24Mar2024 13:46:13.440] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Map Washing...
+[24Mar2024 13:46:13.441] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Matrix Enchanting...
+[24Mar2024 13:46:13.448] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Metal Buttons...
+[24Mar2024 13:46:13.448] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Microcrafting Helper...
+[24Mar2024 13:46:13.450] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Midori...
+[24Mar2024 13:46:13.450] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Monster Box...
+[24Mar2024 13:46:13.450] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Banner Layers...
+[24Mar2024 13:46:13.450] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Brick Types...
+[24Mar2024 13:46:13.451] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Mud Blocks...
+[24Mar2024 13:46:13.451] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Note Block Sounds...
+[24Mar2024 13:46:13.451] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Potted Plants...
+[24Mar2024 13:46:13.452] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Narrator Readout...
+[24Mar2024 13:46:13.452] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Nether Brick Fence Gate...
+[24Mar2024 13:46:13.452] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Nether Obsidian Spikes...
+[24Mar2024 13:46:13.453] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module New Stone Types...
+[24Mar2024 13:46:13.456] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module No Durability On Cosmetics...
+[24Mar2024 13:46:13.456] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module No More Lava Pockets...
+[24Mar2024 13:46:13.456] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Obsidian Plate...
+[24Mar2024 13:46:13.457] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Overlay Shader...
+[24Mar2024 13:46:13.457] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Parrot Eggs...
+[24Mar2024 13:46:13.458] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pat The Dogs...
+[24Mar2024 13:46:13.459] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pathfinder Maps...
+[24Mar2024 13:46:13.460] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Permafrost...
+[24Mar2024 13:46:13.461] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pickarang...
+[24Mar2024 13:46:13.467] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pig Litters...
+[24Mar2024 13:46:13.467] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pipes...
+[24Mar2024 13:46:13.470] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pistons Move Tile Entities...
+[24Mar2024 13:46:13.471] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Poison Potato Usage...
+[24Mar2024 13:46:13.472] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Quick Armor Swapping...
+[24Mar2024 13:46:13.472] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Rainbow Lamps...
+[24Mar2024 13:46:13.472] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Raw Metal Bricks...
+[24Mar2024 13:46:13.472] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Reacharound Placing...
+[24Mar2024 13:46:13.473] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Redstone Randomizer...
+[24Mar2024 13:46:13.474] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Renewable Spore Blossoms...
+[24Mar2024 13:46:13.475] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Replace Scaffolding...
+[24Mar2024 13:46:13.475] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Rope...
+[24Mar2024 13:46:13.477] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Safer Creatures...
+[24Mar2024 13:46:13.477] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Seed Pouch...
+[24Mar2024 13:46:13.492] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Shear Vines...
+[24Mar2024 13:46:13.502] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Shiba...
+[24Mar2024 13:46:13.502] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Shingles...
+[24Mar2024 13:46:13.503] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Shulker Packing...
+[24Mar2024 13:46:13.503] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Simple Harvest...
+[24Mar2024 13:46:13.504] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Skull Pikes...
+[24Mar2024 13:46:13.506] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Slabs To Blocks...
+[24Mar2024 13:46:13.506] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Slime In A Bucket...
+[24Mar2024 13:46:13.508] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Slimes To Magma Cubes...
+[24Mar2024 13:46:13.508] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Snow Golem Player Heads...
+[24Mar2024 13:46:13.508] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Soul Candles...
+[24Mar2024 13:46:13.509] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Soul Sandstone...
+[24Mar2024 13:46:13.509] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Spawner Replacer...
+[24Mar2024 13:46:13.509] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Spiral Spires...
+[24Mar2024 13:46:13.512] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Stonelings...
+[24Mar2024 13:46:13.513] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Stools...
+[24Mar2024 13:46:13.513] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Sturdy Stone...
+[24Mar2024 13:46:13.516] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Thatch...
+[24Mar2024 13:46:13.516] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Tiny Potato...
+[24Mar2024 13:46:13.517] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Torch Arrow...
+[24Mar2024 13:46:13.520] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Toretoise...
+[24Mar2024 13:46:13.520] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Totem Of Holding...
+[24Mar2024 13:46:13.522] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Trowel...
+[24Mar2024 13:46:13.523] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Usage Ticker...
+[24Mar2024 13:46:13.523] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Uses For Curses...
+[24Mar2024 13:46:13.525] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Utility Recipes...
+[24Mar2024 13:46:13.525] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Animal Textures...
+[24Mar2024 13:46:13.526] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Bookshelves...
+[24Mar2024 13:46:13.526] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Chests...
+[24Mar2024 13:46:13.527] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Furnaces...
+[24Mar2024 13:46:13.536] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Ladders...
+[24Mar2024 13:46:13.536] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Selector...
+[24Mar2024 13:46:13.540] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Vertical Planks...
+[24Mar2024 13:46:13.540] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Vertical Slabs...
+[24Mar2024 13:46:13.557] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Vexes Die With Their Masters...
+[24Mar2024 13:46:13.557] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Villager Rerolling Rework...
+[24Mar2024 13:46:13.561] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Villagers Follow Emeralds...
+[24Mar2024 13:46:13.562] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Wooden Posts...
+[24Mar2024 13:46:13.562] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Wool Shuts Up Minecarts...
+[24Mar2024 13:46:13.562] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Wraith...
+[24Mar2024 13:46:13.563] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Zombie Villagers On Normal...
+[24Mar2024 13:46:13.564] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Stone Variants...
+[24Mar2024 13:46:13.564] [modloading-worker-0/INFO] [quark-zeta/]: Constructed 160 modules.
+[24Mar2024 13:46:13.564] [modloading-worker-0/INFO] [quark-zeta/]: Dispatching ZModulesReady to 1 listener
+[24Mar2024 13:46:13.659] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file D:\programs\MultiMC\instances\1.20.1-KWSMC\.minecraft\config\quark-common.toml is not correct. Correcting
+[24Mar2024 13:46:13.691] [modloading-worker-0/INFO] [mixin/]: Mixing client.MixinServerData from mixins/common/nochatreports.mixins.json into net.minecraft.client.multiplayer.ServerData
+[24Mar2024 13:46:13.746] [modloading-worker-0/INFO] [mixin/]: Mixing client.MixinChatListener from mixins/common/nochatreports.mixins.json into net.minecraft.client.multiplayer.chat.ChatListener
+[24Mar2024 13:46:13.825] [modloading-worker-0/INFO] [KubeJS Startup/]: example.js#5: Hello, World! (Loaded startup scripts)
+[24Mar2024 13:46:13.827] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script startup_scripts:example.js in 0.046 s
+[24Mar2024 13:46:13.829] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded 1/1 KubeJS startup scripts in 0.587 s with 0 errors and 0 warnings
+[24Mar2024 13:46:13.902] [modloading-worker-0/INFO] [KubeJS Client/]: example.js#5: Hello, World! (Loaded client scripts)
+[24Mar2024 13:46:13.902] [modloading-worker-0/INFO] [KubeJS Client/]: Loaded script client_scripts:example.js in 0.0 s
+[24Mar2024 13:46:13.903] [modloading-worker-0/INFO] [KubeJS Client/]: Loaded 1/1 KubeJS client scripts in 0.014 s with 0 errors and 0 warnings
+[24Mar2024 13:46:13.918] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id kubejs:send_data_from_client
+[24Mar2024 13:46:13.920] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id kubejs:send_data_from_server
+[24Mar2024 13:46:13.920] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id kubejs:paint
+[24Mar2024 13:46:13.920] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id kubejs:add_stage
+[24Mar2024 13:46:13.921] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id kubejs:remove_stage
+[24Mar2024 13:46:13.921] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id kubejs:sync_stages
+[24Mar2024 13:46:13.922] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id kubejs:first_click
+[24Mar2024 13:46:13.922] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id kubejs:toast
+[24Mar2024 13:46:13.923] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id kubejs:reload_startup_scripts
+[24Mar2024 13:46:13.923] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id kubejs:display_server_errors
+[24Mar2024 13:46:13.924] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id kubejs:display_client_errors
+[24Mar2024 13:46:14.182] [modloading-worker-0/INFO] [mixin/]: Mixing common.MixinServerStatus from mixins/common/nochatreports.mixins.json into net.minecraft.network.protocol.status.ServerStatus
+[24Mar2024 13:46:14.283] [Render thread/INFO] [net.minecraft.resources.RegistryDataLoader/]: Capturing existing worldgen registries
+[24Mar2024 13:46:14.284] [Render thread/INFO] [net.minecraft.resources.RegistryDataLoader/]: Found 0 injected RegistryDataLoader worldgen registries
+[24Mar2024 13:46:14.329] [Render thread/INFO] [zeta-internal/]: Dispatching ZRegister to 3 listeners
+[24Mar2024 13:46:14.333] [Render thread/INFO] [zeta-internal/]: Dispatching ZRegister$Post to 1 listener
+[24Mar2024 13:46:14.334] [Render thread/INFO] [quark-zeta/]: Dispatching ZRegister to 96 listeners
+[24Mar2024 13:46:16.762] [Render thread/INFO] [quark-zeta/]: Dispatching ZRegister$Post to 6 listeners
+[24Mar2024 13:46:19.621] [Render thread/INFO] [Diagonal Blocks/]: Constructing shapes for ForgeDiagonalFenceBlock[NodeWidth=2.0,ExtensionWidth=2.0,NodeTop=24.0,ExtensionBottom=0.0,ExtensionTop=24.0] took 20ms
+[24Mar2024 13:46:19.643] [Render thread/INFO] [Diagonal Blocks/]: Constructing shapes for ForgeDiagonalFenceBlock[NodeWidth=2.0,ExtensionWidth=2.0,NodeTop=16.0,ExtensionBottom=0.0,ExtensionTop=16.0] took 19ms
+[24Mar2024 13:46:19.694] [Render thread/INFO] [Diagonal Blocks/]: Constructing shapes for ForgeDiagonalFenceBlock[NodeWidth=2.0,ExtensionWidth=1.0,NodeTop=16.0,ExtensionBottom=6.0,ExtensionTop=15.0] took 48ms
+[24Mar2024 13:46:22.427] [FTB Backups Config Watcher 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Config at D:\programs\MultiMC\instances\1.20.1-KWSMC\.minecraft\config\ftbbackups2.json has changed, reloaded!
+[24Mar2024 13:46:22.847] [Render thread/INFO] [Moonlight/]: Initialized block sets in 20ms
+[24Mar2024 13:46:22.857] [Render thread/INFO] [Every Compat/]: Registering Compat Wood Blocks
+[24Mar2024 13:46:25.225] [Render thread/INFO] [Every Compat/]: Registering Compat Leaves Blocks
+[24Mar2024 13:46:26.378] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry forge:global_loot_modifier_serializers: The object RecordCodec[UnitDecoder[vectorwing.farmersdelight.common.loot.modifier.AddItemModifier$$Lambda$18213/0x0000000802d8d400@42c0faed] * Field[conditions: passthrough[flatXmapped]] * Field[item: net.minecraftforge.registries.ForgeRegistry$RegistryCodec@726dbf8d] * OptionalFieldCodec[count: Int][xmapped]] has been registered twice for the same name farmersdelight:add_item.
+[24Mar2024 13:46:26.378] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry forge:global_loot_modifier_serializers: The object RecordCodec[UnitDecoder[vectorwing.farmersdelight.common.loot.modifier.AddLootTableModifier$$Lambda$18216/0x0000000802d8daa8@439037f3] * Field[conditions: passthrough[flatXmapped]] * Field[lootTable: String[comapFlatMapped]]] has been registered twice for the same name farmersdelight:add_loot_table.
+[24Mar2024 13:46:26.378] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry forge:global_loot_modifier_serializers: The object RecordCodec[UnitDecoder[vectorwing.farmersdelight.common.loot.modifier.PastrySlicingModifier$$Lambda$18219/0x0000000802d8e140@2aa6e8d] * Field[conditions: passthrough[flatXmapped]] * Field[slice: net.minecraftforge.registries.ForgeRegistry$RegistryCodec@726dbf8d]] has been registered twice for the same name farmersdelight:pastry_slicing.
+[24Mar2024 13:46:26.463] [Render thread/INFO] [quark-zeta/]: Dispatching ForgeZEntityAttributeCreation (as ZEntityAttributeCreation) to 7 listeners
+[24Mar2024 13:46:26.547] [Render thread/INFO] [net.minecraft.server.packs.repository.FolderRepositorySource/]: Found non-pack entry 'D:\programs\MultiMC\instances\1.20.1-KWSMC\.minecraft\resourcepacks\Graphics', ignoring
+[24Mar2024 13:46:26.687] [Render thread/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: loaded in block colorizer
+[24Mar2024 13:46:26.691] [Render thread/INFO] [quark-zeta/]: Dispatching ForgeZAddBlockColorHandlers (as ZAddBlockColorHandlers) to 4 listeners
+[24Mar2024 13:46:26.692] [Render thread/INFO] [quark-zeta/]: Dispatching ForgeZAddBlockColorHandlers$Post (as ZAddBlockColorHandlers$Post) to 1 listener
+[24Mar2024 13:46:26.698] [Render thread/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: loaded in item colorizer
+[24Mar2024 13:46:26.702] [Render thread/INFO] [quark-zeta/]: Dispatching ForgeZAddItemColorHandlers (as ZAddItemColorHandlers) to 8 listeners
+[24Mar2024 13:46:26.704] [Render thread/INFO] [quark-zeta/]: Dispatching ForgeZAddItemColorHandlers$Post (as ZAddItemColorHandlers$Post) to 1 listener
+[24Mar2024 13:46:26.794] [Render thread/INFO] [Oculus/]: Hardware information:
+[24Mar2024 13:46:26.795] [Render thread/INFO] [Oculus/]: CPU: 16x AMD Ryzen 7 5700X 8-Core Processor 
+[24Mar2024 13:46:26.795] [Render thread/INFO] [Oculus/]: GPU: NVIDIA GeForce RTX 3060 Ti/PCIe/SSE2 (Supports OpenGL 4.6.0 NVIDIA 551.86)
+[24Mar2024 13:46:26.795] [Render thread/INFO] [Oculus/]: OS: Windows Server 2022 (10.0)
+[24Mar2024 13:46:26.949] [Render thread/INFO] [quark-zeta/]: Dispatching ZRegisterReloadListeners (as ZRegisterReloadListeners) to 1 listener
+[24Mar2024 13:46:26.958] [Render thread/INFO] [quark-zeta/]: Dispatching ForgeZRegisterLayerDefinitions (as ZRegisterLayerDefinitions) to 1 listener
+[24Mar2024 13:46:26.967] [Render thread/INFO] [quark/]: Registering model layer quark:crab#main
+[24Mar2024 13:46:26.967] [Render thread/INFO] [quark/]: Registering model layer quark:shiba#main
+[24Mar2024 13:46:26.967] [Render thread/INFO] [quark/]: Registering model layer quark:quark_boat_chest#main
+[24Mar2024 13:46:26.967] [Render thread/INFO] [quark/]: Registering model layer quark:wraith#main
+[24Mar2024 13:46:26.967] [Render thread/INFO] [quark/]: Registering model layer quark:forgotten_hat#main
+[24Mar2024 13:46:26.967] [Render thread/INFO] [quark/]: Registering model layer quark:stoneling#main
+[24Mar2024 13:46:26.967] [Render thread/INFO] [quark/]: Registering model layer quark:toretoise#main
+[24Mar2024 13:46:26.967] [Render thread/INFO] [quark/]: Registering model layer quark:quark_boat#main
+[24Mar2024 13:46:26.967] [Render thread/INFO] [quark/]: Registering model layer quark:foxhound#main
+[24Mar2024 13:46:26.968] [Render thread/INFO] [quark/]: Registering model layer quark:backpack#main
+[24Mar2024 13:46:27.150] [Render thread/INFO] [quark-zeta/]: Dispatching ForgeZTooltipComponents (as ZTooltipComponents) to 3 listeners
+[24Mar2024 13:46:27.165] [Render thread/INFO] [journeymap/]: Registering Keybinds
+[24Mar2024 13:46:27.166] [Render thread/INFO] [quark-zeta/]: Dispatching ForgeZKeyMapping (as ZKeyMapping) to 10 listeners
+[24Mar2024 13:46:27.257] [Render thread/INFO] [Puzzles Lib/]: Running data generation for dynamic pack resources provided by 'diagonalblocks'
+[24Mar2024 13:46:27.301] [Render thread/INFO] [Puzzles Lib/]: Data generation for dynamic pack resources provided by 'diagonalblocks' took 43ms
+[24Mar2024 13:46:27.307] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources, KubeJS Resource Pack [assets], file/Stay_True_1.20.zip, file/Mandalas_Legacy_Gui_Background.zip, Moonlight Mods Dynamic Assets, file/Created Simple Storage 1.3.zip, file/waystones_1.20.zip, file/Better_Modded_GUI.zip, file/NoBushyLeaves.zip, create:legacy_copper, create_central_kitchen:create_styled, file/SE Vanilla Consistency 1.20.1.zip, fabric, packmenu, diagonalblocks:default_block_models
+[24Mar2024 13:46:28.268] [Render thread/INFO] [Every Compat/]: Generated runtime CLIENT_RESOURCES for pack Moonlight Mods Dynamic Assets (everycomp) in: 947 ms
+[24Mar2024 13:46:28.416] [Render thread/INFO] [Supplementaries/]: Generated runtime CLIENT_RESOURCES for pack Moonlight Mods Dynamic Assets (supplementaries) in: 147 ms
+[24Mar2024 13:46:28.648] [Worker-Main-1/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.0.06.hex, loading
+[24Mar2024 13:46:28.914] [Render thread/INFO] [KubeJS Client/]: Client resource reload complete!
+[24Mar2024 13:46:29.129] [Worker-Main-11/WARN] [net.minecraft.server.packs.FilePackResources/]: Invalid path in datapack: minecraft:textures/gui/options_background - alt.png, ignoring
+[24Mar2024 13:46:29.232] [Worker-Main-10/WARN] [net.minecraft.server.packs.FilePackResources/]: Invalid path in datapack: minecraft:textures/block/old iron/iron_door_bottom.png, ignoring
+[24Mar2024 13:46:29.234] [Worker-Main-10/WARN] [net.minecraft.server.packs.FilePackResources/]: Invalid path in datapack: minecraft:textures/block/old iron/iron_door_top.png, ignoring
+[24Mar2024 13:46:29.234] [Worker-Main-10/WARN] [net.minecraft.server.packs.FilePackResources/]: Invalid path in datapack: minecraft:textures/block/old iron/iron_trapdoor.png, ignoring
+[24Mar2024 13:46:29.500] [Worker-Main-10/WARN] [net.minecraft.server.packs.FilePackResources/]: Invalid path in datapack: minecraft:textures/item/cool netherrite/netherite_axe.png, ignoring
+[24Mar2024 13:46:29.500] [Worker-Main-10/WARN] [net.minecraft.server.packs.FilePackResources/]: Invalid path in datapack: minecraft:textures/item/cool netherrite/netherite_boots.png, ignoring
+[24Mar2024 13:46:29.500] [Worker-Main-10/WARN] [net.minecraft.server.packs.FilePackResources/]: Invalid path in datapack: minecraft:textures/item/cool netherrite/netherite_chestplate.png, ignoring
+[24Mar2024 13:46:29.500] [Worker-Main-10/WARN] [net.minecraft.server.packs.FilePackResources/]: Invalid path in datapack: minecraft:textures/item/cool netherrite/netherite_helmet.png, ignoring
+[24Mar2024 13:46:29.500] [Worker-Main-10/WARN] [net.minecraft.server.packs.FilePackResources/]: Invalid path in datapack: minecraft:textures/item/cool netherrite/netherite_hoe.png, ignoring
+[24Mar2024 13:46:29.500] [Worker-Main-10/WARN] [net.minecraft.server.packs.FilePackResources/]: Invalid path in datapack: minecraft:textures/item/cool netherrite/netherite_leggings.png, ignoring
+[24Mar2024 13:46:29.500] [Worker-Main-10/WARN] [net.minecraft.server.packs.FilePackResources/]: Invalid path in datapack: minecraft:textures/item/cool netherrite/netherite_pickaxe.png, ignoring
+[24Mar2024 13:46:29.500] [Worker-Main-10/WARN] [net.minecraft.server.packs.FilePackResources/]: Invalid path in datapack: minecraft:textures/item/cool netherrite/netherite_shovel.png, ignoring
+[24Mar2024 13:46:29.500] [Worker-Main-10/WARN] [net.minecraft.server.packs.FilePackResources/]: Invalid path in datapack: minecraft:textures/item/cool netherrite/netherite_sword.png, ignoring
+[24Mar2024 13:46:29.500] [Worker-Main-10/WARN] [net.minecraft.server.packs.FilePackResources/]: Invalid path in datapack: minecraft:textures/item/cool netherrite/pack.png, ignoring
+[24Mar2024 13:46:29.500] [Worker-Main-10/WARN] [net.minecraft.server.packs.FilePackResources/]: Invalid path in datapack: minecraft:textures/item/cool netherrite/readme.txt, ignoring
+[24Mar2024 13:46:29.501] [Worker-Main-10/WARN] [net.minecraft.server.packs.FilePackResources/]: Invalid path in datapack: minecraft:textures/item/netherite no gold/netherite_boots.png, ignoring
+[24Mar2024 13:46:29.501] [Worker-Main-10/WARN] [net.minecraft.server.packs.FilePackResources/]: Invalid path in datapack: minecraft:textures/item/netherite no gold/netherite_chestplate.png, ignoring
+[24Mar2024 13:46:29.501] [Worker-Main-10/WARN] [net.minecraft.server.packs.FilePackResources/]: Invalid path in datapack: minecraft:textures/item/netherite no gold/netherite_helmet.png, ignoring
+[24Mar2024 13:46:29.501] [Worker-Main-10/WARN] [net.minecraft.server.packs.FilePackResources/]: Invalid path in datapack: minecraft:textures/item/netherite no gold/netherite_leggings.png, ignoring
+[24Mar2024 13:46:30.188] [modloading-worker-0/INFO] [com.tom.createores.CreateOreExcavation/]: Loaded Create Ore Excavation config file createoreexcavation-common.toml
+[24Mar2024 13:46:30.192] [Worker-Main-9/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'minecraft:blockstates/cut_sandstone.json' in resourcepack: 'file/Stay_True_1.20.zip' for variant: 'axis=z': Unknown blockstate property: 'axis'
+[24Mar2024 13:46:30.192] [Worker-Main-9/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'minecraft:blockstates/cut_sandstone.json' in resourcepack: 'file/Stay_True_1.20.zip' for variant: 'axis=x': Unknown blockstate property: 'axis'
+[24Mar2024 13:46:30.192] [Worker-Main-9/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'minecraft:blockstates/cut_sandstone.json' in resourcepack: 'file/Stay_True_1.20.zip' for variant: 'axis=y': Unknown blockstate property: 'axis'
+[24Mar2024 13:46:30.211] [modloading-worker-0/INFO] [zeta-internal/]: Dispatching ZConfigChanged to 3 listeners
+[24Mar2024 13:46:30.213] [modloading-worker-0/INFO] [zeta/]: 'zeta' is enabling Zeta's piston structure resolver.
+[24Mar2024 13:46:30.240] [modloading-worker-0/INFO] [quark-zeta/]: Dispatching ZConfigChanged to 51 listeners
+[24Mar2024 13:46:30.317] [Thread-20/INFO] [quark-zeta/]: Dispatching ZConfigChanged to 51 listeners
+[24Mar2024 13:46:30.413] [Worker-Main-2/INFO] [com.axedgaming.endersdelight.EndersDelight/]: HELLO FROM PREINIT
+[24Mar2024 13:46:30.414] [Worker-Main-2/INFO] [com.axedgaming.endersdelight.EndersDelight/]: DIRT BLOCK >> translation{key='block.minecraft.dirt', args=[]}
+[24Mar2024 13:46:30.448] [Worker-Main-13/INFO] [cn.mcmod_mmf.mmlib.Main/]: Presented by Zaia
+[24Mar2024 13:46:30.451] [Worker-Main-6/INFO] [journeymap/]: Found @Ljourneymap/client/api/ClientPlugin;: me.frankv.jmi.JMIJourneyMapPlugin
+[24Mar2024 13:46:30.452] [Worker-Main-2/INFO] [com.tom.createores.CreateOreExcavation/]: Create Ore Excavation starting
+[24Mar2024 13:46:30.456] [Worker-Main-4/INFO] [zeta-internal/]: Dispatching ForgeZCommonSetup (as ZCommonSetup) to 2 listeners
+[24Mar2024 13:46:30.456] [Worker-Main-7/INFO] [quark-zeta/]: Dispatching ForgeZCommonSetup (as ZCommonSetup) to 42 listeners
+[24Mar2024 13:46:30.458] [Worker-Main-6/INFO] [journeymap/]: Found @Ljourneymap/client/api/ClientPlugin;: net.blay09.mods.waystones.compat.JourneyMapIntegration
+[24Mar2024 13:46:30.459] [Worker-Main-6/INFO] [journeymap/]: Found @Ljourneymap/client/api/ClientPlugin;: com.tom.createores.jm.JMPlugin
+[24Mar2024 13:46:30.463] [Worker-Main-13/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 clay_ball = 1 clay
+[24Mar2024 13:46:30.463] [Worker-Main-13/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 snowball = 1 snow_block
+[24Mar2024 13:46:30.463] [Worker-Main-13/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 glowstone_dust = 1 glowstone
+[24Mar2024 13:46:30.463] [Worker-Main-13/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 brick = 1 bricks
+[24Mar2024 13:46:30.463] [Worker-Main-13/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 nether_brick = 1 nether_bricks
+[24Mar2024 13:46:30.463] [Worker-Main-13/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 9 nether_wart = 1 nether_wart_block
+[24Mar2024 13:46:30.463] [Worker-Main-13/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 quartz = 1 quartz_block
+[24Mar2024 13:46:30.463] [Worker-Main-13/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 9 melon_slice = 1 melon
+[24Mar2024 13:46:30.464] [Worker-Main-13/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 sand = 1 sandstone
+[24Mar2024 13:46:30.464] [Worker-Main-13/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 red_sand = 1 red_sandstone
+[24Mar2024 13:46:30.466] [Worker-Main-2/INFO] [com.tom.createores.CreateOreExcavation/]: Initilaized Network Handler
+[24Mar2024 13:46:30.466] [Worker-Main-2/INFO] [com.biomemusic.BiomeMusic/]: biomemusic mod initialized
+[24Mar2024 13:46:30.467] [Worker-Main-13/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 clay_ball = 1 clay
+[24Mar2024 13:46:30.525] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [diagonalblocks] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/diagonalblocks.json
+[24Mar2024 13:46:30.647] [Render thread/WARN] [Every Compat/]: Chipped is installed. The mod on its own adds a ludicrous amount of blocks. With Every Compat this can easily explode. You have been warned
+[24Mar2024 13:46:30.647] [Render thread/INFO] [Every Compat/]: Registered 1971 compat blocks making up 14.78% of total blocks registered
+[24Mar2024 13:46:30.745] [Render thread/INFO] [Moonlight/]: Initialized color sets in 93ms
+[24Mar2024 13:46:30.750] [Render thread/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[24Mar2024 13:46:30.750] [Render thread/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
+[24Mar2024 13:46:30.750] [Render thread/INFO] [terrablender/]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
+[24Mar2024 13:46:30.750] [Render thread/INFO] [terrablender/]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
+[24Mar2024 13:46:30.750] [Render thread/INFO] [terrablender/]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
+[24Mar2024 13:46:30.750] [Render thread/INFO] [terrablender/]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
+[24Mar2024 13:46:30.751] [Render thread/INFO] [terrablender/]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
+[24Mar2024 13:46:30.777] [Render thread/INFO] [terrablender/]: Registered region quark:biome_provider to index 4 for type OVERWORLD
+[24Mar2024 13:46:30.777] [Render thread/INFO] [zeta-internal/]: Dispatching ZConfigChanged to 3 listeners
+[24Mar2024 13:46:30.778] [Render thread/INFO] [quark-zeta/]: Dispatching ZConfigChanged to 51 listeners
+[24Mar2024 13:46:30.790] [Render thread/INFO] [journeymap/]: Initializing Packet Registries
+[24Mar2024 13:46:30.842] [Render thread/INFO] [Supplementaries/]: Finished mod setup in: [18, 3, 0, 0, 0, 0, 8, 1] ms
+[24Mar2024 13:46:30.939] [Placebo Patreon Trail Loader/INFO] [placebo/]: Loading patreon trails data...
+[24Mar2024 13:46:30.941] [Placebo Patreon Wing Loader/INFO] [placebo/]: Loading patreon wing data...
+[24Mar2024 13:46:30.950] [Worker-Main-11/INFO] [jmi/]: Waystones integration loaded.
+[24Mar2024 13:46:30.951] [Worker-Main-10/INFO] [SpectreLib/]: Registering config screens for mod veinmining with 3 config(s)
+[24Mar2024 13:46:30.951] [Worker-Main-10/INFO] [SpectreLib/]: Registering config screens for mod comforts with 1 config(s)
+[24Mar2024 13:46:30.955] [Worker-Main-4/INFO] [quark-zeta/]: Dispatching ForgeZClientSetup (as ZClientSetup) to 39 listeners
+[24Mar2024 13:46:31.011] [Placebo Patreon Wing Loader/INFO] [placebo/]: Loaded 28 patreon wings.
+[24Mar2024 13:46:31.016] [Placebo Patreon Trail Loader/INFO] [placebo/]: Loaded 38 patreon trails.
+[24Mar2024 13:46:31.141] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [diagonalblocks] Found status: BETA Current: 8.0.2 Target: null
+[24Mar2024 13:46:31.141] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Starting version check at https://maxhenkel.de/update/corpse.json
+[24Mar2024 13:46:31.218] [Render thread/INFO] [journeymap/]: Journeymap Initializing
+[24Mar2024 13:46:31.254] [Render thread/INFO] [jmi/]: Initialized me.frankv.jmi.JMIJourneyMapPlugin
+[24Mar2024 13:46:33.467] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Found status: UP_TO_DATE Current: 1.20.1-1.0.9 Target: null
+[24Mar2024 13:46:33.469] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [advancednetherite] Starting version check at https://raw.githubusercontent.com/Autovw/ModUpdates/master/advancednetherite/update.json
+[24Mar2024 13:46:33.572] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [advancednetherite] Found status: BETA_OUTDATED Current: 2.0.2 Target: 2.0.3
+[24Mar2024 13:46:33.572] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Starting version check at https://mrcrayfish.com/modupdatejson?id=framework
+[24Mar2024 13:46:35.938] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Found status: BETA_OUTDATED Current: 0.6.16 Target: 0.6.27
+[24Mar2024 13:46:35.938] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [radium] Starting version check at https://api.modrinth.com/updates/radium/forge_updates.json
+[24Mar2024 13:46:36.327] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [radium] Found status: UP_TO_DATE Current: 0.12.2+git.5f80f74 Target: null
+[24Mar2024 13:46:36.327] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Starting version check at https://updates.blamejared.com/get?n=clumps&gv=1.20.1
+[24Mar2024 13:46:37.223] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Found status: BETA Current: 12.0.0.3 Target: 12.0.0.3
+[24Mar2024 13:46:37.223] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[24Mar2024 13:46:37.503] [Worker-Main-9/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'storagedrawers:blockstates/meta_indicator.json' missing model for variant: 'storagedrawers:meta_indicator#facing=west,half=true,slots=3'
+[24Mar2024 13:46:37.503] [Worker-Main-9/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'storagedrawers:blockstates/meta_indicator.json' missing model for variant: 'storagedrawers:meta_indicator#facing=north,half=true,slots=3'
+[24Mar2024 13:46:37.503] [Worker-Main-9/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'storagedrawers:blockstates/meta_indicator.json' missing model for variant: 'storagedrawers:meta_indicator#facing=north,half=false,slots=3'
+[24Mar2024 13:46:37.503] [Worker-Main-9/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'storagedrawers:blockstates/meta_indicator.json' missing model for variant: 'storagedrawers:meta_indicator#facing=west,half=false,slots=3'
+[24Mar2024 13:46:37.503] [Worker-Main-9/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'storagedrawers:blockstates/meta_indicator.json' missing model for variant: 'storagedrawers:meta_indicator#facing=south,half=true,slots=3'
+[24Mar2024 13:46:37.503] [Worker-Main-9/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'storagedrawers:blockstates/meta_indicator.json' missing model for variant: 'storagedrawers:meta_indicator#facing=south,half=false,slots=3'
+[24Mar2024 13:46:37.503] [Worker-Main-9/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'storagedrawers:blockstates/meta_indicator.json' missing model for variant: 'storagedrawers:meta_indicator#facing=east,half=true,slots=3'
+[24Mar2024 13:46:37.503] [Worker-Main-9/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'storagedrawers:blockstates/meta_indicator.json' missing model for variant: 'storagedrawers:meta_indicator#facing=east,half=false,slots=3'
+[24Mar2024 13:46:37.503] [Worker-Main-9/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'storagedrawers:blockstates/meta_comp_indicator.json' missing model for variant: 'storagedrawers:meta_comp_indicator#facing=north,half=true'
+[24Mar2024 13:46:37.504] [Worker-Main-9/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'storagedrawers:blockstates/meta_comp_indicator.json' missing model for variant: 'storagedrawers:meta_comp_indicator#facing=south,half=true'
+[24Mar2024 13:46:37.504] [Worker-Main-9/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'storagedrawers:blockstates/meta_comp_indicator.json' missing model for variant: 'storagedrawers:meta_comp_indicator#facing=west,half=true'
+[24Mar2024 13:46:37.504] [Worker-Main-9/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'storagedrawers:blockstates/meta_comp_indicator.json' missing model for variant: 'storagedrawers:meta_comp_indicator#facing=east,half=true'
+[24Mar2024 13:46:37.964] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: UP_TO_DATE Current: 5.9.18p1 Target: null
+[24Mar2024 13:46:37.964] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [storagenetwork] Starting version check at https://raw.githubusercontent.com/Lothrazar/Storage-Network/trunk/1.19/update.json
+[24Mar2024 13:46:38.050] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [storagenetwork] Found status: BETA Current: 1.10.0 Target: null
+[24Mar2024 13:46:38.050] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzlesaccessapi.json
+[24Mar2024 13:46:38.403] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Found status: BETA Current: 8.0.7 Target: null
+[24Mar2024 13:46:38.404] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[24Mar2024 13:46:39.255] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.2.17 Target: 47.2.21
+[24Mar2024 13:46:39.255] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Starting version check at https://raw.githubusercontent.com/MehVahdJukaar/Moonlight/multi-loader/forge/update.json
+[24Mar2024 13:46:39.407] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Found status: BETA Current: 1.20-2.9.10 Target: null
+[24Mar2024 13:46:39.408] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Starting version check at https://api.modrinth.com/updates/flywheel/forge_updates.json
+[24Mar2024 13:46:39.632] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Found status: BETA Current: 0.6.10-7 Target: null
+[24Mar2024 13:46:39.632] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [createoreexcavation] Starting version check at https://raw.githubusercontent.com/tom5454/Create-Ore-Excavation/main/version-check.json
+[24Mar2024 13:46:39.720] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [createoreexcavation] Found status: BETA Current: 1.4.2 Target: 1.4.2
+[24Mar2024 13:46:39.720] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [supplementaries] Starting version check at https://raw.githubusercontent.com/MehVahdJukaar/Supplementaries/1.20/forge/update.json
+[24Mar2024 13:46:39.816] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [supplementaries] Found status: BETA Current: 1.20-2.7.35 Target: null
+[24Mar2024 13:46:39.816] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [diagonalfences] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/diagonalfences.json
+[24Mar2024 13:46:39.900] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [diagonalfences] Found status: UP_TO_DATE Current: 8.1.3 Target: null
+[24Mar2024 13:46:39.900] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [backpacked] Starting version check at https://mrcrayfish.com/modupdatejson?id=backpacked
+[24Mar2024 13:46:41.022] [Worker-Main-9/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'decorative_blocks:blockstate_copy_item#inventory' referenced from: decorative_blocks:blockstate_copy_item#inventory: java.io.FileNotFoundException: decorative_blocks:models/item/blockstate_copy_item.json
+[24Mar2024 13:46:41.099] [Worker-Main-9/INFO] [quark-zeta/]: Dispatching ForgeZAddModels (as ZAddModels) to 5 listeners
+[24Mar2024 13:46:41.675] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [backpacked] Found status: BETA Current: 2.2.5 Target: 2.2.5
+[24Mar2024 13:46:41.675] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzleslib.json
+[24Mar2024 13:46:41.767] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Found status: UP_TO_DATE Current: 8.1.18 Target: null
+[24Mar2024 13:46:41.768] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [packetfixer] Starting version check at https://api.modrinth.com/updates/packet-fixer/forge_updates.json
+[24Mar2024 13:46:42.064] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [packetfixer] Found status: OUTDATED Current: 1.2.4 Target: 1.2.8
+[24Mar2024 13:46:42.064] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [delightful] Starting version check at https://raw.githubusercontent.com/brnbrd/Delightful/1.19/update/update.json
+[24Mar2024 13:46:42.140] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [delightful] Found status: BETA Current: 3.4.2 Target: null
+[24Mar2024 13:46:47.678] [Worker-Main-9/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model minecraft:grass_block#snowy=false:
+    minecraft:textures/atlas/blocks.png:minecraft:block/dirts
+[24Mar2024 13:46:47.678] [Worker-Main-9/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model supplementaries:tater_in_a_jar#inventory:
+    minecraft:textures/atlas/blocks.png:quark:model/tiny_potato/default
+[24Mar2024 13:46:48.825] [Worker-Main-9/INFO] [Puzzles Lib/]: Modifying unbaked models took 862ms
+[24Mar2024 13:46:48.836] [Worker-Main-9/INFO] [quark-zeta/]: Dispatching ForgeZModel$ModifyBakingResult (as ZModel$ModifyBakingResult) to 1 listener
+[24Mar2024 13:46:49.462] [Render thread/INFO] [packmenu/]: Loaded 8 buttons from resources.
+[24Mar2024 13:46:49.674] [Render thread/INFO] [com.jozufozu.flywheel.backend.Backend/]: Loaded all shader sources.
+[24Mar2024 13:46:49.738] [Worker-Main-13/INFO] [zeta-internal/]: Dispatching ForgeZLoadComplete (as ZLoadComplete) to 1 listener
+[24Mar2024 13:46:49.738] [Worker-Main-2/INFO] [quark-zeta/]: Dispatching ForgeZLoadComplete (as ZLoadComplete) to 6 listeners
+[24Mar2024 13:46:49.752] [Worker-Main-12/INFO] [com.tom.createores.CreateOreExcavation/]: Loaded KubeJS integration
+[24Mar2024 13:46:57.115] [Render thread/INFO] [mixin/]: Mixing client.MixinRowHelper from mixins/common/nochatreports.mixins.json into net.minecraft.client.gui.layouts.GridLayout$RowHelper
+[24Mar2024 13:46:57.123] [Render thread/INFO] [mixin/]: Mixing client.MixinChatOptionsScreen from mixins/common/nochatreports.mixins.json into net.minecraft.client.gui.screens.ChatOptionsScreen
+[24Mar2024 13:46:57.123] [Render thread/INFO] [mixin/]: Renaming synthetic method lambda$init$0(Lnet/minecraft/client/gui/components/AbstractWidget;)V to mdc8f821$nochatreports$lambda$init$0$0 in mixins/common/nochatreports.mixins.json:client.MixinChatOptionsScreen from mod nochatreports
+[24Mar2024 13:47:00.894] [Render thread/INFO] [net.minecraft.client.Options/]: Added resource packs: [vanilla, mod_resources, file/Stay_True_1.20.zip, file/Mandalas_Legacy_Gui_Background.zip, Moonlight Mods Dynamic Assets, file/Created Simple Storage 1.3.zip, file/waystones_1.20.zip, file/Better_Modded_GUI.zip, file/NoBushyLeaves.zip, create:legacy_copper, create_central_kitchen:create_styled, file/SE Vanilla Consistency 1.20.1.zip, fabric]
+[24Mar2024 13:47:01.296] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[24Mar2024 13:47:01.296] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[24Mar2024 13:47:01.296] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: twigs:block.petrified_lichen.break
+[24Mar2024 13:47:01.296] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: twigs:block.petrified_lichen.step
+[24Mar2024 13:47:01.296] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: twigs:block.petrified_lichen.place
+[24Mar2024 13:47:01.296] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: twigs:block.petrified_lichen.hit
+[24Mar2024 13:47:01.296] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: twigs:block.petrified_lichen.fall
+[24Mar2024 13:47:01.296] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: twigs:block.bamboo_leaves.break
+[24Mar2024 13:47:01.296] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: twigs:block.bamboo_leaves.step
+[24Mar2024 13:47:01.296] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: twigs:block.bamboo_leaves.place
+[24Mar2024 13:47:01.296] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: twigs:block.bamboo_leaves.hit
+[24Mar2024 13:47:01.296] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: twigs:block.bamboo_leaves.fall
+[24Mar2024 13:47:01.297] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: cataclysm:ignisshieldbreak
+[24Mar2024 13:47:01.297] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: mysterious_mountain_lib:presented_by_zaia
+[24Mar2024 13:47:01.297] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: supplementaries:item.wrench.hit
+[24Mar2024 13:47:01.318] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Realtek HD Audio 2nd output (Realtek(R) Audio)
+[24Mar2024 13:47:01.318] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[24Mar2024 13:47:01.451] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 4096x4096x0 minecraft:textures/atlas/blocks.png-atlas
+[24Mar2024 13:47:01.501] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x0 minecraft:textures/atlas/signs.png-atlas
+[24Mar2024 13:47:01.502] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x0 minecraft:textures/atlas/banner_patterns.png-atlas
+[24Mar2024 13:47:01.503] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x0 minecraft:textures/atlas/shield_patterns.png-atlas
+[24Mar2024 13:47:01.503] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x1024x0 minecraft:textures/atlas/armor_trims.png-atlas
+[24Mar2024 13:47:01.504] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x2048x0 minecraft:textures/atlas/chest.png-atlas
+[24Mar2024 13:47:01.507] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x0 minecraft:textures/atlas/decorated_pot.png-atlas
+[24Mar2024 13:47:01.510] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/beds.png-atlas
+[24Mar2024 13:47:01.510] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/shulker_boxes.png-atlas
+[24Mar2024 13:47:01.643] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to crabbersdelight:crab, has custom renderer that is not LivingEntityRenderer.
+[24Mar2024 13:47:01.646] [Render thread/INFO] [quark-zeta/]: Dispatching ForgeZAddModelLayers (as ZAddModelLayers) to 1 listener
+[24Mar2024 13:47:01.662] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[24Mar2024 13:47:01.682] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader moonlight:text_alpha_color could not find sampler named Sampler2 in the specified shader program.
+[24Mar2024 13:47:01.682] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader moonlight:text_alpha_color could not find uniform named IViewRotMat in the specified shader program.
+[24Mar2024 13:47:01.682] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader moonlight:text_alpha_color could not find uniform named FogStart in the specified shader program.
+[24Mar2024 13:47:01.682] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader moonlight:text_alpha_color could not find uniform named FogEnd in the specified shader program.
+[24Mar2024 13:47:01.682] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader moonlight:text_alpha_color could not find uniform named FogColor in the specified shader program.
+[24Mar2024 13:47:01.684] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader supplementaries:static_noise could not find sampler named Sampler1 in the specified shader program.
+[24Mar2024 13:47:01.698] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x0 minecraft:textures/atlas/particles.png-atlas
+[24Mar2024 13:47:01.699] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x0 minecraft:textures/atlas/paintings.png-atlas
+[24Mar2024 13:47:01.699] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/mob_effects.png-atlas
+[24Mar2024 13:47:02.399] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 polylib:textures/atlas/gui.png-atlas
+[24Mar2024 13:47:02.399] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 jei:textures/atlas/gui.png-atlas
+[24Mar2024 13:47:02.400] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x0 fallingleaves:leaves-atlas
+[24Mar2024 13:47:02.401] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x0 fallingleaves:leaves-atlas
+[24Mar2024 13:47:02.402] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 moonlight:textures/atlas/map_markers.png-atlas
+[24Mar2024 13:47:02.437] [Render thread/INFO] [Oculus/]: Creating pipeline for dimension NamespacedId{namespace='minecraft', name='overworld'}
+[24Mar2024 13:47:02.464] [Render thread/INFO] [Oculus/]: Starting custom uniform resolving
+[24Mar2024 13:47:04.877] [Render thread/WARN] [Oculus/]: Error while parsing the block ID map entry for "block.10092":
+[24Mar2024 13:47:04.877] [Render thread/WARN] [Oculus/]: - The block minecraft:stone has no property with the name variant, ignoring!
+[24Mar2024 13:47:04.879] [Render thread/WARN] [Oculus/]: Error while parsing the block ID map entry for "block.10152":
+[24Mar2024 13:47:04.879] [Render thread/WARN] [Oculus/]: - The block minecraft:stone_slab has no property with the name variant, ignoring!
+[24Mar2024 13:47:04.879] [Render thread/WARN] [Oculus/]: Error while parsing the block ID map entry for "block.10265":
+[24Mar2024 13:47:04.879] [Render thread/WARN] [Oculus/]: - The block minecraft:heavy_weighted_pressure_plate has no property with the name powered, ignoring!
+[24Mar2024 13:47:04.879] [Render thread/WARN] [Oculus/]: Error while parsing the block ID map entry for "block.60016":
+[24Mar2024 13:47:04.879] [Render thread/WARN] [Oculus/]: - The block minecraft:dragon_head has no property with the name powered, ignoring!
+[24Mar2024 13:47:04.882] [Render thread/WARN] [Oculus/]: Error while parsing the block ID map entry for "block.10264":
+[24Mar2024 13:47:04.882] [Render thread/WARN] [Oculus/]: - The block minecraft:heavy_weighted_pressure_plate has no property with the name powered, ignoring!
+[24Mar2024 13:47:04.882] [Render thread/WARN] [Oculus/]: Error while parsing the block ID map entry for "block.10313":
+[24Mar2024 13:47:04.882] [Render thread/WARN] [Oculus/]: - The block minecraft:light_weighted_pressure_plate has no property with the name powered, ignoring!
+[24Mar2024 13:47:04.882] [Render thread/WARN] [Oculus/]: Error while parsing the block ID map entry for "block.10240":
+[24Mar2024 13:47:04.882] [Render thread/WARN] [Oculus/]: - The block minecraft:stone_slab has no property with the name variant, ignoring!
+[24Mar2024 13:47:04.884] [Render thread/WARN] [Oculus/]: Error while parsing the block ID map entry for "block.60036":
+[24Mar2024 13:47:04.884] [Render thread/WARN] [Oculus/]: - The block minecraft:dragon_head has no property with the name powered, ignoring!
+[24Mar2024 13:47:04.884] [Render thread/WARN] [Oculus/]: Error while parsing the block ID map entry for "block.10312":
+[24Mar2024 13:47:04.884] [Render thread/WARN] [Oculus/]: - The block minecraft:light_weighted_pressure_plate has no property with the name powered, ignoring!
+[24Mar2024 13:47:04.884] [Render thread/WARN] [Oculus/]: Error while parsing the block ID map entry for "block.10364":
+[24Mar2024 13:47:04.884] [Render thread/WARN] [Oculus/]: - The block minecraft:stone_slab has no property with the name variant, ignoring!
+[24Mar2024 13:47:04.884] [Render thread/WARN] [Oculus/]: Error while parsing the block ID map entry for "block.10100":
+[24Mar2024 13:47:04.884] [Render thread/WARN] [Oculus/]: - The block minecraft:stone has no property with the name variant, ignoring!
+[24Mar2024 13:47:04.885] [Render thread/WARN] [Oculus/]: Error while parsing the block ID map entry for "block.10084":
+[24Mar2024 13:47:04.885] [Render thread/WARN] [Oculus/]: - The block minecraft:stone has no property with the name variant, ignoring!
+[24Mar2024 13:47:04.885] [Render thread/WARN] [Oculus/]: Error while parsing the block ID map entry for "block.10032":
+[24Mar2024 13:47:04.885] [Render thread/WARN] [Oculus/]: - The block minecraft:stone_slab has no property with the name variant, ignoring!
+[24Mar2024 13:47:04.885] [Render thread/WARN] [Oculus/]: Error while parsing the block ID map entry for "block.10088":
+[24Mar2024 13:47:04.885] [Render thread/WARN] [Oculus/]: - The block minecraft:stone has no property with the name variant, ignoring!
+[24Mar2024 13:47:04.885] [Render thread/WARN] [Oculus/]: Error while parsing the block ID map entry for "block.10104":
+[24Mar2024 13:47:04.885] [Render thread/WARN] [Oculus/]: - The block minecraft:stone has no property with the name variant, ignoring!
+[24Mar2024 13:47:04.886] [Render thread/WARN] [Oculus/]: Error while parsing the block ID map entry for "block.10096":
+[24Mar2024 13:47:04.886] [Render thread/WARN] [Oculus/]: - The block minecraft:stone has no property with the name variant, ignoring!
+[24Mar2024 13:47:04.886] [Render thread/WARN] [Oculus/]: Error while parsing the block ID map entry for "block.10416":
+[24Mar2024 13:47:04.886] [Render thread/WARN] [Oculus/]: - The block minecraft:stone_slab has no property with the name variant, ignoring!
+[24Mar2024 13:47:04.918] [Render thread/INFO] [quark-zeta/]: Dispatching ZFirstClientTick to 1 listener
+[24Mar2024 13:47:04.919] [Render thread/INFO] [Embeddium/]: Block minecraft:large_fern had its color provider replaced and will not use per-vertex coloring
+[24Mar2024 13:47:04.919] [Render thread/INFO] [Embeddium/]: Block minecraft:tall_grass had its color provider replaced and will not use per-vertex coloring
+[24Mar2024 13:47:04.919] [Render thread/INFO] [Embeddium/]: Block minecraft:grass_block had its color provider replaced and will not use per-vertex coloring
+[24Mar2024 13:47:04.919] [Render thread/INFO] [Embeddium/]: Block minecraft:fern had its color provider replaced and will not use per-vertex coloring
+[24Mar2024 13:47:04.919] [Render thread/INFO] [Embeddium/]: Block minecraft:grass had its color provider replaced and will not use per-vertex coloring
+[24Mar2024 13:47:04.919] [Render thread/INFO] [Embeddium/]: Block minecraft:potted_fern had its color provider replaced and will not use per-vertex coloring
+[24Mar2024 13:47:04.919] [Render thread/INFO] [Embeddium/]: Block minecraft:sugar_cane had its color provider replaced and will not use per-vertex coloring
+[24Mar2024 13:47:04.919] [Render thread/INFO] [Embeddium/]: Block minecraft:spruce_leaves had its color provider replaced and will not use per-vertex coloring
+[24Mar2024 13:47:04.919] [Render thread/INFO] [Embeddium/]: Block minecraft:birch_leaves had its color provider replaced and will not use per-vertex coloring
+[24Mar2024 13:47:04.919] [Render thread/INFO] [Embeddium/]: Block minecraft:oak_leaves had its color provider replaced and will not use per-vertex coloring
+[24Mar2024 13:47:04.919] [Render thread/INFO] [Embeddium/]: Block minecraft:jungle_leaves had its color provider replaced and will not use per-vertex coloring
+[24Mar2024 13:47:04.919] [Render thread/INFO] [Embeddium/]: Block minecraft:acacia_leaves had its color provider replaced and will not use per-vertex coloring
+[24Mar2024 13:47:04.919] [Render thread/INFO] [Embeddium/]: Block minecraft:dark_oak_leaves had its color provider replaced and will not use per-vertex coloring
+[24Mar2024 13:47:04.919] [Render thread/INFO] [Embeddium/]: Block minecraft:vine had its color provider replaced and will not use per-vertex coloring
+[24Mar2024 13:56:17.158] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[24Mar2024 13:56:17.160] [Render thread/INFO] [fr.rakambda.fallingtree.common.network.PacketUtils/]: Disconnected from server, resetting proxy config values

@@ -1,0 +1,11 @@
+[13:46:13] [INIT] KubeJS 2001.6.4-build.133; MC 2001 forge
+[13:46:13] [INIT] Loaded plugins:
+[13:46:13] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[13:46:13] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[13:46:13] [INIT] - net.mehvahdjukaar.sawmill.integration.KubeJsPlugin
+[13:46:13] [INIT] - qinomed.kubejsdelight.KubeJSDelightPlugin
+[13:46:13] [INIT] - com.tom.createores.kubejs.KubeJSExcavation
+[13:46:13] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
+[13:46:13] [INFO] example.js#5: Hello, World! (Loaded startup scripts)
+[13:46:13] [INFO] Loaded script startup_scripts:example.js in 0.046 s
+[13:46:13] [INFO] Loaded 1/1 KubeJS startup scripts in 0.587 s with 0 errors and 0 warnings
